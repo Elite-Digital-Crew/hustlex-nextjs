@@ -305,6 +305,7 @@
 	}
 	.background {
 		z-index: 1;
+		object-fit: contain;
 		position: absolute;
 		height: 50vh;
 		width: auto;

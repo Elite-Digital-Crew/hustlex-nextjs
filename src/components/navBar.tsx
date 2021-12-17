@@ -7,10 +7,10 @@ const NavBar = () => {
         <nav className={styles.navBar}>
           <ul className={styles.navList}>
             <div className={styles.logo}><a href="/"><Image src="/logo.png" alt="Logo" width={112} height={24} /></a></div>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#feature">Features</a></li>
             <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul> 
         </nav>
     </div>
