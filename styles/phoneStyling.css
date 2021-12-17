@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1024px) {
+	html {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.navbar {
+		width: 100vw;
+	}
+	.nav-list {
+		width: 100%;
+	}
+	.nav-list li {
+		display: none;
+	}
+	.logo {
+		width: auto;
+		margin: auto;
+	}
+	.hero {
+		height: 72vh;
+	}
+	.links {
+		display: none;
+	}
+	.policies {
+		display: none;
+	}
+	.footercontainer {
+		width: 100vw;
+		justify-content: space-evenly;
+	}
+
+	body {
+		width: 100%;
+		overflow-x: hidden;
+	}
+	/* hero styling */
+	.home {
+		z-index: 1;
+		height: 72;
+		width: calc(100vw - 32px);
+		padding: 0px 32px;
+		overflow-x: hidden;
+	}
+	.home h1 {
+		font-size: min(60px, 12vw);
+		width: 360px;
+	}
+	.home p {
+		font-size: 12px;
+	}
+	.home img {
+		height: 100vh;
+		width: 100vw;
+		object-fit: cover;
+	}
+
+	/* features STYLING */
+	.subhero {
+		height: min(52vh, 500px);
+		padding: 60px 90px;
+	}
+	.subhero h1 {
+		font-size: min(42px, 7vw);
+		width: 42vw;
+	}
+	.subhero h3 {
+		font-size: min(42px, 7vw);
+		width: 42vw;
+		margin-top: 2px;
+	}
+	.subheroleft {
+		height: 34%;
+	}
+	.subhero h2 {
+		font-size: 12px;
+	}
+
+	.subhero p {
+		display: none;
+	}
+	.subhero img {
+		height: auto;
+		width: 50vw;
+	}
+	/* register styling */
+	.register {
+		height: 100vh;
+	}
+	.registertext {
+		font-size: min(6vw, 52px);
+	}
+	.registersubtext {
+		font-size: min(3vw, 24px);
+		width: 72vw;
+	}
+	.form {
+		height: 72vh;
+		width: 92vw;
+	}
+
+	/* button  */
+	.btn h3,
+	.learnmorebtn {
+		font-weight: 600;
+		font-size: min(4vw, 10px);
+		text-decoration: none;
+	}
+	.btn {
+		width: 24vw;
+	}
+
+	/* footer  */
+	.comp h1 {
+		font-size: min(4vw, 14px);
+	}
+
+	.faq {
+		min-height: 92vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.container {
+		padding: 0%;
+		width: 90vw;
+	}
+	.accordion a {
+		width: auto;
+	}
+}
