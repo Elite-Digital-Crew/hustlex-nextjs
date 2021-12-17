@@ -17,7 +17,7 @@ const Lottie = () => {
         });
     }, []);
     return (
-        <div className={styles.lottie}>
+        <div className={styles.lottie} id="home">
             <div className={styles.animation} ref={container} />
             <img src="/iphone-outline.png" alt="" className={styles.iphone} />
             <img src="/background.png" alt="" className={styles.background} />

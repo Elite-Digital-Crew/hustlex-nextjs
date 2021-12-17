@@ -10,7 +10,7 @@ interface Props {
 
 const SubHero = ( props: Props ) => {
     return (
-        <div className={styles.subhero} >
+        <div className={styles.subhero} id="feature">
         <div className={styles.subheroleft}>
             <h1>{props.title}</h1>
             <h2>{props.title}</h2>
