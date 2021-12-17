@@ -32,8 +32,8 @@ const PreRegister: FC = () => {
 		<div className={styles.container}>
 			<h1>PRE-REGISTER</h1>
 			<p className="mt-3">
-				Pre Register for early access and don't miss out on news and updates
-				about HustleX.
+				Pre Register for early access and don&apos;t miss out on news and
+				updates about HustleX.
 			</p>
 			<span className="inline-flex mt-3">
 				<div className={styles.cta}>
@@ -60,7 +60,7 @@ const PreRegister: FC = () => {
 							x="0px"
 							y="0px"
 							viewBox="0 0 100 100"
-							enable-background="new 0 0 0 0"
+							enableBackground="new 0 0 0 0"
 							xmlSpace="preserve"
 						>
 							<path
