@@ -1,15 +1,24 @@
+/* custom fonts  */
+@font-face {
+  font-family: Integral;
+  src: url("/IntegralCF-ExtraBold.otf");
+}
+@font-face {
+  font-family: Integral-Bold;
+  src: url("/IntegralCF-Bold.otf");
+}
+
 /* navbar styling */
 .navBar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   height: 8vh;
   width: 100vw;
 }
 .logo {
   width: 60%;
-  background-color: aqua;
 }
 .logo a img {
   height: 3vh;
@@ -46,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 5.4vh;
+  height: 5vh;
   width: min(20vw, 200px);
   border-radius: 14px;
   background-color: #30343c;
@@ -73,7 +82,7 @@
   z-index: -1;
   margin-top: 6px;
   margin-left: 7.2px;
-  height: 5.4vh;
+  height: 5vh;
   width: min(20vw, 200px);
   border-radius: 14px;
   outline-color: #fa63ce;
@@ -113,10 +122,191 @@
   font-size: min(1.8vw, 24px);
   text-align: center;
 }
+.heroimg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 90vh;
+}
 
-@media (max-width: 600px) {
-  .grid {
+/* sub hero styling */
+.subhero {
+  height: min(92vh, 640px);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alt {
+  background-color: #fafafa;
+}
+.subheroleft {
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.subheroleft h1 {
+  z-index: 2;
+  margin-top: 0%;
+  font-family: Integral-Bold;
+  line-height: 90%;
+  font-size: min(4.2vw, 64px);
+  letter-spacing: 4px;
+  width: min(30vw, 500px);
+  color: #181a20;
+}
+.subheroleft h2 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 3px;
+  margin-left: 3px;
+  font-family: Integral-Bold;
+  line-height: 90%;
+  font-size: min(4.2vw, 64px);
+  letter-spacing: 4px;
+  color: #ffffff;
+  width: min(30vw, 500px);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fa63ce;
+}
+.subheroleft h3 {
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: normal;
+  font-family: "Outfit", sans-serif;
+  max-width: 420px;
+}
+.subheroimg {
+  height: auto;
+  width: min(50%, 500px);
+}
+
+/* lottie styling */
+.lottie {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animation {
+  height: 64vh;
+}
+.iphone {
+  position: absolute;
+  height: 64vh;
+}
+.background {
+  z-index: -1;
+  object-fit: contain;
+  position: absolute;
+  height: 72vh;
+  width: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 100vw;
+  }
+  .navList {
     width: 100%;
-    flex-direction: column;
+    padding: 0;
+  }
+  .navList li {
+    display: none;
+  }
+  .logo {
+    width: auto;
+    margin: auto;
+  }
+
+  /* hero styling */
+  .hero {
+    height: 72vh;
+  }
+  .heroimg {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .hero h1 {
+    font-size: min(60px, 12vw);
+    width: 360px;
+  }
+  .hero p {
+    font-size: 12px;
+  }
+  /* button  */
+  .btn {
+    width: 32vw;
+    height: 34px;
+    border-radius: 6px;
+  }
+  .btn :hover {
+    width: 32vw;
+    height: 34px;
+    border-radius: 6px;
+    background-color: #fa63ce;
+  }
+  .btn div {
+    width: 32vw;
+    height: 34px;
+    border-radius: 6px;
+  }
+  .btntxt {
+    font-weight: 600;
+    font-size: min(4vw, 10px);
+    text-decoration: none;
+  }
+  /* subher styling */
+  .subhero {
+    height: min(52vh, 500px);
+    padding: 60px 90px;
+  }
+  .subhero h1 {
+    font-size: min(42px, 7vw);
+    width: 42vw;
+  }
+  .subhero h2 {
+    font-size: min(42px, 7vw);
+    width: 42vw;
+    margin-top: 2px;
+  }
+  .subheroleft {
+    height: 50%;
+  }
+  .subhero h3 {
+    font-size: 12px;
+  }
+  .subhero p {
+    display: none;
+  }
+  .subhero img {
+    height: auto;
+    width: 50vw;
+  }
+
+  /* lottie styling  */
+  .lottie {
+    background-color: #ffffff;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .animation {
+    z-index: 2;
+    height: 64vh;
+  }
+  .iphone {
+    z-index: 3;
+    position: absolute;
+    height: 64vh;
+  }
+  .background {
+    z-index: 1;
+    position: absolute;
+    height: 50vh;
+    width: auto;
   }
 }
