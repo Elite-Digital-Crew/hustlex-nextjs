@@ -29,7 +29,7 @@ const PreRegister: FC = () => {
 	};
 
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="register">
 			<h1>PRE-REGISTER</h1>
 			<p className="mt-3">
 				Pre Register for early access and don&apos;t miss out on news and
