@@ -6,6 +6,7 @@ import "tailwindcss/tailwind.css";
 import type { AppProps } from "next/app";
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { ChakraProvider } from "@chakra-ui/react";
+import Head from "next/head";
 
 export const client = new ApolloClient({
 	uri: "https://india.hustlex.club/",
@@ -15,7 +16,9 @@ export const client = new ApolloClient({
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<ChakraProvider>
-			<script async src="https://cdn.splitbee.io/sb.js"></script>
+			<Head>
+				<script async src="https://cdn.splitbee.io/sb.js"></script>
+			</Head>
 			<Component {...pageProps} />
 		</ChakraProvider>
 	);
