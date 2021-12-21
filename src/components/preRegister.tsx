@@ -108,9 +108,13 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 				</button>
 			</span>
 			<div className={styles.ctaALT}></div>
-			<Image src="/pattern.png" alt="" className={styles.pattern} />
+			<img
+				src="/pattern.png"
+				alt=""
+				// width="30"
+				// height="100"
+				className={styles.pattern}
+			/>
 		</div>
 	);
 });
-
-PreRegister.displayName = "PreRegister";
