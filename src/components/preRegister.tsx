@@ -1,20 +1,40 @@
+import { toast, useToast } from "@chakra-ui/react";
+import {
+	CheckCircleIcon,
+	ExclamationCircleIcon,
+	PlusCircleIcon,
+} from "@heroicons/react/outline";
 import Image from "next/image";
-import React, { FC, useState } from "react";
+import React, {
+	FC,
+	ForwardedRef,
+	forwardRef,
+	MutableRefObject,
+	Ref,
+	RefObject,
+	useState,
+} from "react";
 import { client } from "../../pages/_app";
 import {
 	PRE_REGISTER_QUERY,
 	PRE_REGISTER_QUERY_RESULT,
 } from "../../queries/preRegister.query";
 import styles from "../../styles/PreRegister.module.css";
-import { useToast } from "./toast";
 
-const PreRegister: FC = () => {
+const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 	const [loading, setLoading] = useState<boolean>();
 	const [email, setEmail] = useState<string>();
-	const [error, setError] = useState<string>();
+
+	const toast = useToast();
 
 	const preRegister = async () => {
 		if (email == null || !email.includes("@") || !email.includes(".")) {
+			toast({
+				title: "Invalid Email",
+				description: "Please enter a valid email.",
+				status: "error",
+			});
+
 			return;
 		}
 
@@ -25,11 +45,16 @@ const PreRegister: FC = () => {
 				email,
 			},
 		});
+		toast({
+			title: "Congratulations",
+			description: "You are now signed up!.",
+			status: "success",
+		});
 		setLoading(false);
 	};
 
 	return (
-		<div className={styles.container}>
+		<div ref={ref} className={styles.container}>
 			<h1>PRE-REGISTER</h1>
 			<p className="mt-3">
 				Pre Register for early access and don&apos;t miss out on news and
@@ -86,6 +111,6 @@ const PreRegister: FC = () => {
 			<img src="/pattern.png" alt="" className={styles.pattern} />
 		</div>
 	);
-};
+});
 
 export default PreRegister;
