@@ -54,7 +54,7 @@ const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 	};
 
 	return (
-		<div ref={ref} className={styles.container}>
+		<div ref={ref} className={styles.container} id="register">
 			<h1>PRE-REGISTER</h1>
 			<p className="mt-3">
 				Pre Register for early access and don&apos;t miss out on news and

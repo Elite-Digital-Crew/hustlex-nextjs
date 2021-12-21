@@ -59,7 +59,7 @@ export const Footer = () => {
             </div>
             <div className={styles.div5}>
                 <img src="/logo-light.png" alt="" />
-                <h1>Made with ❤ by ️HustleTeam in India</h1> 
+                <h1>Made with 💗 by ️HustleTeam in India</h1> 
                 <h1>© 2021, HustleX Fitness.</h1> 
             </div>
         </div>
