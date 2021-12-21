@@ -1,4 +1,4 @@
-import { toast, useToast } from "@chakra-ui/react";
+import { useToast } from "@chakra-ui/react";
 import {
 	CheckCircleIcon,
 	ExclamationCircleIcon,
@@ -21,7 +21,7 @@ import {
 } from "../../queries/preRegister.query";
 import styles from "../../styles/PreRegister.module.css";
 
-const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
+export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 	const [loading, setLoading] = useState<boolean>();
 	const [email, setEmail] = useState<string>();
 
@@ -108,9 +108,9 @@ const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 				</button>
 			</span>
 			<div className={styles.ctaALT}></div>
-			<img src="/pattern.png" alt="" className={styles.pattern} />
+			<Image src="/pattern.png" alt="" className={styles.pattern} />
 		</div>
 	);
 });
 
-export default PreRegister;
+PreRegister.displayName = "PreRegister";

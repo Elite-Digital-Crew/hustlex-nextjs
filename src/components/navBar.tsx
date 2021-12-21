@@ -3,7 +3,7 @@ import React from "react";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 
-const NavBar = () => {
+const navBar = () => {
 	return (
 		<div>
 			<nav className={styles.navBar}>
@@ -31,4 +31,4 @@ const NavBar = () => {
 	);
 };
 
-export default NavBar;
+export default navBar;

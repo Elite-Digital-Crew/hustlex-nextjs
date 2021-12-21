@@ -11,7 +11,7 @@ import NavBar from "../src/components/navBar";
 import Hero from "../src/components/home";
 import SubHero from "../src/components/subHero";
 import Lottie from "../src/components/lottie";
-import PreRegister from "../src/components/preRegister";
+import { PreRegister } from "../src/components/preRegister";
 import { Footer } from "../src/components/footer";
 import { createRef, useRef } from "react";
 
