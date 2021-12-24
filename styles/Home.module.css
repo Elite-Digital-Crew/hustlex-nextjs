@@ -268,11 +268,11 @@
   }
   .subhero h1 {
     font-size: min(42px, 7vw);
-    width: 42vw;
+    width: 50vw;
   }
   .subhero h2 {
     font-size: min(42px, 7vw);
-    width: 42vw;
+    width: 50vw;
     margin-top: 2px;
   }
   .subheroleft {

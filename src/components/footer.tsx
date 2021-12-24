@@ -28,7 +28,6 @@ export const Footer = () => {
         <div className={styles.parent} id='footer'>
             <div className={styles.div1}>
                 <img src="/logo-sm.png" alt="" className={styles.logosm}/>
-                <h1 className={styles.txt}>About</h1>
                 <p>HustleX is a platform why provieds AI Based personalized plans, rewards you for your fitness activity, allows you told socialize with like minded people through your fitness journey.</p>
                 <div>
                 <SocialLink href='https://twitter.com/hustlexclub' name='twitter.png'/>
@@ -38,14 +37,14 @@ export const Footer = () => {
                 </div>
             </div>
             <div className={styles.div2}>
-                <h1 className={styles.txt}>Contact</h1>
-                <Link name="Team" href="/" />
+                <h1 className={styles.txt}>Company</h1>
+                <Link name="Team" href="/team" />
                 <Link name="Carrer" href="/career" />
-                <Link name="Pitch Deck" href="/" />
-                <Link name="Investors" href="/" />
+                <Link name="Pitch Deck" href="/pitch-deck.pdf" />
+                <Link name="-" href="/" />
             </div>
             <div className={styles.div3}>
-                <h1 className={styles.txt}>Social</h1>
+                <h1 className={styles.txt}>Links</h1>
                 <Link name="-" href="/" />
                 <Link name="-" href="/" />
                 <Link name="-" href="/" />

@@ -8,7 +8,7 @@ const Career: NextPage = () => {
 			<Head>
 				<meta
 					httpEquiv="refresh"
-					content="1; url=https://butternut-apparel-2e5.notion.site/Work-With-Us-f6a28d5d7f014928a205491e1b58544b"
+					content="1; url=https://butternut-apparel-2e5.notion.site/Career-2d32355fb69c485b92682d5627f181dd"
 				/>
 				<title>Join HustleX</title>
 			</Head>

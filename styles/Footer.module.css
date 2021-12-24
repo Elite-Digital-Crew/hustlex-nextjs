@@ -137,6 +137,8 @@
   }
   .div1 p {
     text-align: center;
+    font-size: 3.2vw;
+    margin: 3.2vh 0;
   }
   .div2 {
     align-items: center;
