@@ -16,7 +16,7 @@ const SubHero = (props: Props) => {
 				<h1>{props.title}</h1>
 				<h2>{props.title}</h2>
 
-				<h3>{props.discription}</h3>
+				<h3 className="mt-3">{props.discription}</h3>
 			</div>
 			<img src={props.img} alt="" className={styles.subheroimg} />
 		</div>

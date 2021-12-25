@@ -39,7 +39,7 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 		}
 
 		setLoading(true);
-		const res = await client.query<PRE_REGISTER_QUERY_RESULT>({
+		await client.query<PRE_REGISTER_QUERY_RESULT>({
 			query: PRE_REGISTER_QUERY,
 			variables: {
 				email,
