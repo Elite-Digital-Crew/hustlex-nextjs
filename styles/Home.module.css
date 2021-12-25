@@ -278,16 +278,18 @@
   }
   .subheroleft {
     height: 50%;
+    width: 47vw;
   }
   .subhero h3 {
     font-size: 12px;
+    height: min(50vh, 86px);
   }
   .subhero p {
     display: none;
   }
   .subhero img {
     height: auto;
-    width: 50vw;
+    width: 45vw;
   }
 
   /* lottie styling  */

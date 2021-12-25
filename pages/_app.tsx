@@ -1,6 +1,4 @@
 import "../styles/globals.css";
-import "../styles/DesktopStyling.css";
-import "../styles/phoneStyling.css";
 import "tailwindcss/tailwind.css";
 
 import ReactGa from "react-ga";

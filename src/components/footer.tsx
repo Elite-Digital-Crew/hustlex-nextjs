@@ -28,7 +28,7 @@ export const Footer = () => {
         <div className={styles.parent} id='footer'>
             <div className={styles.div1}>
                 <img src="/logo-sm.png" alt="" className={styles.logosm}/>
-                <p>HustleX is a platform why provieds AI Based personalized plans, rewards you for your fitness activity, allows you told socialize with like minded people through your fitness journey.</p>
+                <p>HustleX is a platform which provieds AI Based personalized plans, rewards you for your fitness activity, allows you to socialize with like minded people through your fitness journey.</p>
                 <div>
                 <SocialLink href='https://twitter.com/hustlexclub' name='twitter.png'/>
                 <SocialLink href='https://www.instagram.com/hustlex.club/' name='instagram.png'/>
