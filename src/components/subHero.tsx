@@ -8,6 +8,7 @@ interface Props {
 	img: string;
 }
 
+// SubHero
 const SubHero = (props: Props) => {
 	return (
 		<div className={styles.subhero} id="feature">
