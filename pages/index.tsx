@@ -30,47 +30,62 @@ const Home: NextPage = () => {
 				<title>Social Fitness</title>
 				<meta name="description" content="AI And Social Fitness app" />
 				<link rel="icon" href="/logo-sm.png" />
-				<title>Social Fitness App that rewards you for your fitness activity and socialize with like minded people.</title>
+				<title>
+					Social Fitness App that rewards you for your fitness activity and
+					socialize with like minded people.
+				</title>
 				<meta name="" />
-				<meta name="description" content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI." />
+				<meta
+					name="description"
+					content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI."
+				/>
 				{/* twitter */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:card" content="summary_small_image" />
 				<meta name="twitter:site" content="@hustlexclub" />
 				<meta name="twitter:creator" content="Chinmay P Dev" />
 				<meta name="twitter:title" content="Social Fitness App" />
-				<meta name="twitter:description" content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI." />
+				<meta
+					name="twitter:description"
+					content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI."
+				/>
 				<meta name="twitter:image" content="/coverImage.png" />
 				{/* facebook */}
 				<meta property="og:url" content="https://www.hustlex.club" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Social Fitness App" />
-				<meta property="og:description" content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI." />
+				<meta
+					property="og:description"
+					content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI."
+				/>
 				<meta property="og:image" content="/coverImage.png" />
 
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
-				<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+					rel="stylesheet"
+				></link>
 			</Head>
 			<NavBar />
 			<Hero onScroll={scroll} />
 			<Lottie />
 			<SubHero
-				title={"HUSTLE\n MEET"}
+				title={"HUSTLE \n MEET"}
 				discription={
 					"HustleX is the first of its kind app which lets you find people that are into the same things as you, be it yoga, running, or even just meeting for a cup of coffee."
 				}
 				img={"/event.png"}
 			/>
 			<SubHero
-				title={"HUSTLE\n WORKOUT"}
+				title={"HUSTLE \n WORKOUT"}
 				discription={
 					"AI-powered workout builder which lets you build your own personalized workout in a jiffy. So no more browsing through the internet for the right workout."
 				}
 				img={"/workout.png"}
 			/>
 			<SubHero
-				title={"Rewards"}
+				title={"Earn Rewards"}
 				discription={
 					"Every time you do something on HustleX, you receive Hustle coins. you can use these coins to get exclusive rewards."
 				}
