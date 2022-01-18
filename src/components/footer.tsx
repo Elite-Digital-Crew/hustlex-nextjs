@@ -29,9 +29,7 @@ export const Footer = () => {
 			<div className={styles.div1}>
 				<img src="/logo-sm.png" alt="" className={styles.logosm} />
 				<p>
-					HustleX is a platform which provides AI Based personalized plans,
-					rewards you for your fitness activity, allows you to socialize with
-					like minded people through your fitness journey.
+					A gamified reward system that gives users Hustle coins whenever they complete challenges or workout. These coins can further be used to get exclusive rewards.
 				</p>
 				<div>
 					<SocialLink

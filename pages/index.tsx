@@ -31,13 +31,12 @@ const Home: NextPage = () => {
 				<meta name="description" content="AI And Social Fitness app" />
 				<link rel="icon" href="/logo-sm.png" />
 				<title>
-					Social Fitness App that rewards you for your fitness activity and
-					socialize with like minded people.
+					Gamified Social Fitness App that rewards you for your fitness activity.
 				</title>
 				<meta name="" />
 				<meta
 					name="description"
-					content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI."
+					content="A gamified social fitness platform that rewards you for your fitness activity. Let's you socialize with friends and other like minded people in your locality."
 				/>
 				{/* twitter */}
 				<meta name="twitter:card" content="summary_large_image" />
@@ -47,7 +46,7 @@ const Home: NextPage = () => {
 				<meta name="twitter:title" content="Social Fitness App" />
 				<meta
 					name="twitter:description"
-					content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI."
+					content="A gamified social fitness platform that rewards you for your fitness activity. Let's you socialize with friends and other like minded people in your locality."
 				/>
 				<meta name="twitter:image" content="/coverImage.png" />
 				{/* facebook */}
@@ -56,7 +55,7 @@ const Home: NextPage = () => {
 				<meta property="og:title" content="Social Fitness App" />
 				<meta
 					property="og:description"
-					content="a social fitness platform that rewards you for your fitness activity. Let's you meet like-minded people in your locality. Provides personalized workout plans using AI."
+					content="A gamified social fitness platform that rewards you for your fitness activity. Let's you socialize with friends and other like minded people in your locality."
 				/>
 				<meta property="og:image" content="/coverImage.png" />
 
@@ -71,6 +70,13 @@ const Home: NextPage = () => {
 			<Hero onScroll={scroll} />
 			<Lottie />
 			<SubHero
+				title={"Earn Rewards"}
+				discription={
+					"Every time you do something on HustleX, you receive Hustle coins. you can use these coins to get exclusive rewards."
+				}
+				img={"/reward.png"}
+			/>
+			<SubHero
 				title={"HUSTLE \n MEET"}
 				discription={
 					"HustleX is the first of its kind app which lets you find people that are into the same things as you, be it yoga, running, or even just meeting for a cup of coffee."
@@ -83,13 +89,6 @@ const Home: NextPage = () => {
 					"AI-powered workout builder which lets you build your own personalized workout in a jiffy. So no more browsing through the internet for the right workout."
 				}
 				img={"/workout.png"}
-			/>
-			<SubHero
-				title={"Earn Rewards"}
-				discription={
-					"Every time you do something on HustleX, you receive Hustle coins. you can use these coins to get exclusive rewards."
-				}
-				img={"/reward.png"}
 			/>
 			<PreRegister ref={preRegisterRef} />
 			<Footer />

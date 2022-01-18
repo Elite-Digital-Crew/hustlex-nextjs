@@ -12,10 +12,9 @@ const Hero: FC<Props> = ({ onScroll }) => {
 		<div className={styles.hero}>
 			<div className={styles.content}>
 				<img src="/hero.png" alt="" className={styles.heroimg} />
-				<h1>Social Fitness</h1>
+				<h1>Gamified Fitness</h1>
 				<p>
-					Personalized AI Workouts. Meet people Earn rewards. Compete with
-					friends.
+					A gamified social fitness platform that rewards you for your fitness activity.
 				</p>
 				<PreRegisterButton onScroll={onScroll} />
 			</div>
