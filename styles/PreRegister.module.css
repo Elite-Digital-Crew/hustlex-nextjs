@@ -1,7 +1,7 @@
 .container {
   height: 72vh;
   width: 100vw;
-  background-color: #fafafa;
+  background-color: #101214;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,16 +12,17 @@
   font-family: Integral;
   font-size: min(5.4vw, 72px);
   letter-spacing: 3.5px;
-  color: #232730;
+  color: #ffffff;
   text-align: center;
 }
 .container p {
-  width: 72%;
+  color: #ffffff;
+  opacity: 0.8;
+  width: 30%;
   font-weight: 300;
   font-family: "Outfit", sans-serif;
-  font-size: min(1.8vw, 24px);
+  font-size: min(1.6vw, 20px);
   text-align: center;
-  width: 42%;
 }
 
 .cta {

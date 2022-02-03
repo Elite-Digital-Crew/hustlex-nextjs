@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 const Career: NextPage = () => {
 	return (
-		<div className={styles.container}>
+		<div className={styles.hero}>
 			<Head>
 				<meta
 					httpEquiv="refresh"
@@ -12,7 +12,7 @@ const Career: NextPage = () => {
 				/>
 				<title>Join HustleX</title>
 			</Head>
-			<h1>Redirecting to Notion</h1>
+			<p>Redirecting to Notion</p>
 		</div>
 	);
 };

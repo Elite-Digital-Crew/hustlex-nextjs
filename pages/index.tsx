@@ -64,7 +64,7 @@ const Home: NextPage = () => {
 				></link>
 			</Head>
 			<NavBar />
-			<Hero onScroll={scroll} />
+			<Hero onScroll={scroll} title={"Gamified"} title2="Fitness" description="turn your fitness into a game!!"/>
 			<Lottie />
 			<SubHero
 				title={"Earn Rewards"}

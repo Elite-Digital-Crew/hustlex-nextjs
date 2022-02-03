@@ -5,17 +5,20 @@ import PreRegisterButton from "./preRegisterButton";
 
 type Props = {
 	onScroll: () => void;
+	title: string;
+	title2?: string;
+	description: string;
 };
 
-const Hero: FC<Props> = ({ onScroll }) => {
+const Hero: FC<Props> = ({ onScroll, title, title2, description }) => {
 	return (
 		<div className={styles.hero}>
 			<div className={styles.content}>
-				<img src="/hero.png" alt="" className={styles.heroimg} />
-				<h1>Gamified Fitness</h1>
-				<p>
-					A gamified social fitness platform that rewards you for your fitness activity.
-				</p>
+				<div>
+					<h1>{title}</h1>
+					<h2>{title2}</h2>
+				</div>
+				<p>{description}</p>
 				<PreRegisterButton onScroll={onScroll} />
 			</div>
 		</div>

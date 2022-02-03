@@ -1,6 +1,6 @@
 .parent {
   height: 72vh;
-  background: #181a20;
+  background: #121417;
   padding: 0 4vw;
   display: grid;
   grid-template-columns: 1.5fr repeat(2, 1fr) 1.5fr;
@@ -33,12 +33,12 @@
   font-size: min(2vw, 20px);
   font-family: "Outfit", sans-serif;
   font-weight: 400;
-  color: aliceblue;
+  color: #c6c6c6;
 }
 .txt {
   font-size: min(3vw, 24px);
   font-family: Integral-Bold;
-  color: aliceblue;
+  color: #f4f4f4;
 }
 
 .div1 {
@@ -56,7 +56,7 @@
   font-size: min(2vw, 18px);
   font-family: "Outfit", sans-serif;
   font-weight: 200;
-  color: aliceblue;
+  color: #c6c6c6;
 }
 .div1 div {
   width: 100%;
@@ -91,7 +91,7 @@
   font-size: min(2vw, 18px);
   font-family: "Outfit", sans-serif;
   font-weight: 200;
-  color: aliceblue;
+  color: #c6c6c6;
 }
 .div5 {
   /* background-color: antiquewhite; */
@@ -110,7 +110,7 @@
   font-size: min(2vw, 18px);
   font-family: "Outfit", sans-serif;
   font-weight: 400;
-  color: aliceblue;
+  color: #c6c6c6;
 }
 
 @media (max-width: 1024px) {

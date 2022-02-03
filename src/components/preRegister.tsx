@@ -72,7 +72,7 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 				</div>
 				<button
 					disabled={loading}
-					className={`disabled:inline-flex ml-5 items-center px-4 py-2 h-12 w-44 text-center border-pink text-sm font-medium rounded-md shadow-sm text-white bg-epic-black hover:bg-pink focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:hover:bg-epic-black focus:ring-pink`}
+					className={`disabled:inline-flex ml-5 items-center px-4 py-2 h-12 w-44 text-center border-pink text-sm font-bold rounded-md shadow-sm text-white bg-epic-black hover:bg-pink focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:hover:bg-epic-black focus:ring-pink`}
 					onClick={() => preRegister()}
 				>
 					{loading && (
