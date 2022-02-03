@@ -10,7 +10,7 @@ import SubHero from "../src/components/subHero";
 import Lottie from "../src/components/lottie";
 import { PreRegister } from "../src/components/preRegister";
 import { Footer } from "../src/components/footer";
-import { createRef, useRef } from "react";
+import { createRef } from "react";
 
 const Home: NextPage = () => {
 	const preRegisterRef = createRef<HTMLInputElement>();
@@ -28,7 +28,8 @@ const Home: NextPage = () => {
 				<meta name="description" content="AI And Social Fitness app" />
 				<link rel="icon" href="/logo-sm.png" />
 				<title>
-					Gamified Social Fitness App that rewards you for your fitness activity.
+					Gamified Social Fitness App that rewards you for your fitness
+					activity.
 				</title>
 				<meta name="" />
 				<meta
