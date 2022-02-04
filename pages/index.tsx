@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 				<meta name="" />
 				<meta
 					name="description"
-					content="A gamified social fitness platform that rewards you for your fitness activity. Let's you socialize with friends and other like minded people in your locality."
+					content="A gamified social fitness platform that rewards you for your fitness activity."
 				/>
 				{/* twitter */}
 				<meta name="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
 				<meta name="twitter:title" content="Social Fitness App" />
 				<meta
 					name="twitter:description"
-					content="A gamified social fitness platform that rewards you for your fitness activity. Let's you socialize with friends and other like minded people in your locality."
+					content="A gamified social fitness platform that rewards you for your fitness activity."
 				/>
 				<meta name="twitter:image" content="/coverImage.png" />
 				{/* facebook */}
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
 				<meta property="og:title" content="Social Fitness App" />
 				<meta
 					property="og:description"
-					content="A gamified social fitness platform that rewards you for your fitness activity. Let's you socialize with friends and other like minded people in your locality."
+					content="A gamified social fitness platform that rewards you for your fitness activity."
 				/>
 				<meta property="og:image" content="/coverImage.png" />
 
@@ -68,6 +68,13 @@ const Home: NextPage = () => {
 			<Hero onScroll={scroll} title={"Gamified"} title2="Fitness" description="turn your fitness into a game!!"/>
 			<Lottie />
 			<SubHero
+				title={"game of fitness"}
+				discription={
+					"Challenges, Experience points, Badges, Leaderboards and more game like features to motivate you towards fitness."
+				}
+				img={"/event.png"}
+			/>
+			<SubHero
 				title={"Earn Rewards"}
 				discription={
 					"Every time you do something on HustleX, you receive Hustle coins. you can use these coins to get exclusive rewards."
@@ -77,14 +84,7 @@ const Home: NextPage = () => {
 			<SubHero
 				title={"HUSTLE \n MEET"}
 				discription={
-					"HustleX is the first of its kind app which lets you find people that are into the same things as you, be it yoga, running, or even just meeting for a cup of coffee."
-				}
-				img={"/event.png"}
-			/>
-			<SubHero
-				title={"HUSTLE \n WORKOUT"}
-				discription={
-					"AI-powered workout builder which lets you build your own personalized workout in a jiffy. So no more browsing through the internet for the right workout."
+					"Share posts with friends, See what your friends are doing now with activity status. Find people to exercise or play with, in your locality with Hustle Meet."
 				}
 				img={"/workout.png"}
 			/>

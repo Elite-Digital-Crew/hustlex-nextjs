@@ -53,7 +53,7 @@
   height: min(10vw, 72px);
 }
 .div1 p {
-  font-size: min(2vw, 18px);
+  font-size: min(2vw, 16px);
   font-family: "Outfit", sans-serif;
   font-weight: 200;
   color: #c6c6c6;
@@ -137,7 +137,7 @@
   }
   .div1 p {
     text-align: center;
-    font-size: 3.2vw;
+    font-size: min(3.2vw, 24px);
     margin: 3.2vh 0;
   }
   .div2 {

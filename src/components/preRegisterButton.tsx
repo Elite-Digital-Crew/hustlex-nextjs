@@ -14,7 +14,6 @@ const PreRegisterButton: FC<Props> = ({ onScroll }) => {
 			>
 				Join Now
 			</a>
-			<a className={styles.learnmore}>learn more</a>
 		</div>
 	);
 };

@@ -13,8 +13,7 @@ const Team: NextPage = () => {
 			<NavBar />
 			<div className={styles.hero}>
 				<div className={styles.content}>
-					<img src="/hero.png" alt="" className={styles.heroimg} />
-					<h1>the crew building HustleX</h1>
+					<h1>people building HustleX</h1>
 					<p>Get to know more about us, what we do. Let us know if you would like to work with us.</p>
 				</div>
 			</div>
@@ -27,7 +26,7 @@ const Team: NextPage = () => {
 			<div className={styles.whyContainer}>
 				<div className={styles.left}>
 					<h1>Why you should join us?</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.d imperdiet pellentesque quam egestas in lectus faucibus suscipit vitae. Neque pretium urna mattis at senectus eget fermentum,vitae gravida. Nibh tincidunt nullam id gravida maecenas sed tortor velit ipsum.</p>
+					<p>we are gen-z minds working on a problem, encouraging team that craves to execute. working for a greater cause and real issue. we are looking for people who always want to hustle!!!</p>
 				</div>
 				<div className={styles.right}>
 					<img src={'./team-join.png'} alt="" className={styles.whyimg}/>

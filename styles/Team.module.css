@@ -1,6 +1,7 @@
 .page {
   background-color: #101214;
   z-index: -1;
+  font-family: "Outfit", sans-serif;
 }
 .teamContainer {
   height: 72vh;
@@ -118,7 +119,7 @@
   color: #f4f4f4;
 }
 .left p {
-  font-family: Outfit;
+  font-family: "Outfit", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: min(1.6vw, 20px);
@@ -148,12 +149,13 @@
   background-color: #121417;
 }
 .jobcta h1 {
-  font-family: Outfit;
+  font-family: "Outfit", sans-serif;
   font-weight: bold;
   font-size: min(3vw, 48px);
   color: #f4f4f4;
 }
 .jobcta a {
+  font-family: "Outfit", sans-serif;
   width: min(18vw, 150px);
   height: min(4vw, 45px);
   display: flex;

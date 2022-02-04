@@ -14,6 +14,10 @@
 
 /* navbar styling */
 .navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,25 +76,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #101214;
 
-  height: 5vh;
-  width: min(20vw, 180px);
-  border-radius: 14px;
+  height: 5.4vh;
+  width: min(20vw, 150px);
+  border-radius: 0.5vw;
 
   text-decoration: none;
   font-weight: 600;
-  color: #101214;
+  color: #ffffff;
   font-size: min(1.4 vw, 16px);
   text-decoration: none;
 
+  border-color: #ffffff;
+  border-width: 2px;
+
   transition: transform 0.3s ease;
 }
-.btn:hover {
-  transform: scale(1.05);
-  border-color: #101214;
-  border-width: 2px;
-  box-shadow: 0px 0px 7.2px 2px #fff;
+.btn :hover {
+  background-color: #ffffff;
+  color: #101214;
 }
 
 /* hero styling */
@@ -116,6 +121,7 @@
   font-family: Integral;
   font-size: min(5.4vw, 72px);
   letter-spacing: 3.5px;
+  line-height: 90%;
   color: #101214;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffffff;
@@ -125,6 +131,7 @@
   font-family: Integral;
   font-size: min(5.4vw, 72px);
   letter-spacing: 3.5px;
+  line-height: 90%;
   color: #ffffff;
 }
 .hero p {
@@ -162,7 +169,7 @@
   font-size: min(4.2vw, 64px);
   letter-spacing: 4px;
   width: min(30vw, 500px);
-  color: #181a20;
+  color: #fafafa;
 }
 .subheroleft h2 {
   position: absolute;
@@ -173,7 +180,7 @@
   line-height: 90%;
   font-size: min(4.2vw, 64px);
   letter-spacing: 4px;
-  color: #ffffff;
+  color: #101214;
   width: min(30vw, 500px);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fa63ce;
@@ -184,6 +191,7 @@
   font-weight: normal;
   font-family: "Outfit", sans-serif;
   max-width: 420px;
+  color: #c6c6c6;
 }
 .subheroimg {
   height: auto;
@@ -245,14 +253,16 @@
     text-align: center;
   }
   .hero p {
-    font-size: 12px;
+    font-size: min(4.2vw, 42px);
     text-align: center;
+    width: 100%;
   }
   /* button  */
   .btn {
     margin: auto;
-    width: 32vw;
-    height: 34px;
+    border-radius: 6px;
+    width: min(32vw, 154px);
+    height: 42px;
   }
   .learnmore {
     display: none;
