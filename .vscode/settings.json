@@ -1,3 +1,4 @@
 {
-	"rpc.enabled": false
+	"rpc.enabled": false,
+	"ros.distro": "noetic"
 }
