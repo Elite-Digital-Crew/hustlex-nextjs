@@ -49,10 +49,10 @@ export const Footer = () => {
 			</div>
 			<div className={styles.div2}>
 				<h1 className={styles.txt}>Company</h1>
+				<Link name="About" href="/about" />
 				<Link name="Team" href="/team" />
 				<Link name="Carrer" href="/career" />
 				<Link name="Pitch Deck" href="/pitch-deck.pdf" />
-				<Link name="-" href="/" />
 			</div>
 			<div className={styles.div3}>
 				<h1 className={styles.txt}>Links</h1>
