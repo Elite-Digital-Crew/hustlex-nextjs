@@ -22,7 +22,7 @@ const About = () => {
 					with most fitness apps is that they are lethargic and are quite
 					boring. HustleX would make fitness more fun by integrating game
 					elements like points, leaderboards, battlepass(ish), levels, rewards
-					and more.{" "}
+					and more.
 				</p>
 			</div>
 			<Footer />
