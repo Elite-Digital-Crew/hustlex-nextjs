@@ -9,7 +9,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { ChakraProvider } from "@chakra-ui/react";
 
 export const client = new ApolloClient({
-	uri: "https://india.hustlex.club/",
+	uri: "https://api.samuelv.dev/hustlex",
 	cache: new InMemoryCache(),
 });
 
