@@ -1,7 +1,7 @@
 .container {
   height: 72vh;
-  width: 100vw;
-  background-color: #101214;
+  width: 100%;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,11 +12,11 @@
   font-family: Integral;
   font-size: min(5.4vw, 72px);
   letter-spacing: 3.5px;
-  color: #ffffff;
+  color: #050505;
   text-align: center;
 }
 .container p {
-  color: #ffffff;
+  color: #050505;
   opacity: 0.8;
   width: 30%;
   font-weight: 300;

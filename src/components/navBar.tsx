@@ -10,11 +10,11 @@ const navBar = () => {
 				<ul className={styles.navList}>
 					<div className={styles.logo}>
 						<Link href="/">
-							<Image src="/logo-light.png" alt="Logo" width={112} height={24} />
+							<Image src="/logo.png" alt="Logo" width={112} height={24} />
 						</Link>
 					</div>
 					<li>
-						<Link href="#home">Home</Link>
+						<Link href="/about">About</Link>
 					</li>
 					<li>
 						<Link href="#feature">Features</Link>

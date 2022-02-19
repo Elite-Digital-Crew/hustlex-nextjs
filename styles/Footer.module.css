@@ -1,5 +1,5 @@
 .parent {
-  height: 72vh;
+  height: 64vh;
   background: #121417;
   padding: 0 4vw;
   display: grid;
@@ -10,17 +10,23 @@
 }
 
 .socialLink {
-  width: min(5vw, 54px);
-  height: min(5vw, 54px);
+  width: min(5vw, 52px);
+  height: min(5vw, 52px);
+  padding: min(1vw, 14px);
   display: flex;
   justify-content: center;
   align-items: center;
   background: #707070;
   border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.socialLink:hover {
+  box-shadow: 2px 2px 0 0 #fc87db;
+  transform: translate(-2px, -2px);
 }
 .socialLink img {
-  width: min(2vw, 34px);
-  height: min(2vw, 34px);
+  width: "100%";
+  height: "100%";
 }
 
 .link {
@@ -36,7 +42,8 @@
   color: #c6c6c6;
 }
 .txt {
-  font-size: min(3vw, 24px);
+  font-size: min(3vw, 20px);
+  margin-bottom: 12px;
   font-family: Integral-Bold;
   color: #f4f4f4;
 }
@@ -52,19 +59,13 @@
   width: min(10vw, 72px);
   height: min(10vw, 72px);
 }
-.div1 p {
-  font-size: min(2vw, 16px);
-  font-family: "Outfit", sans-serif;
-  font-weight: 200;
-  color: #c6c6c6;
-}
 .div1 div {
   width: 100%;
   max-width: 320px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1vw;
+  margin-top: 8vh;
 }
 .div2 {
   padding: 1.2vw;
@@ -103,11 +104,11 @@
   grid-area: 2 / 1 / 3 / 5;
 }
 .div5 img {
-  height: 4vh;
+  height: min(4vw, 28px);
   width: auto;
 }
 .div5 h1 {
-  font-size: min(2vw, 18px);
+  font-size: min(2vw, 12px);
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   color: #c6c6c6;
@@ -154,6 +155,9 @@
   .div5 {
     margin-top: 2.8vh;
     grid-area: 3 / 1 / 4 / 3;
+  }
+  .div5 h1 {
+    font-size: min(2.4vw, 24px);
   }
   .div5 img {
     display: none;

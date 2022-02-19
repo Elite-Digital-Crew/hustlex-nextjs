@@ -28,9 +28,6 @@ export const Footer = () => {
 		<div className={styles.parent} id="footer">
 			<div className={styles.div1}>
 				<img src="/logo-sm.png" alt="" className={styles.logosm} />
-				<p>
-					A gamified reward system that gives users Hustle coins whenever they complete challenges or workout. These coins can further be used to get exclusive rewards.
-				</p>
 				<div>
 					<SocialLink
 						href="https://twitter.com/hustlexclub"
@@ -76,7 +73,7 @@ export const Footer = () => {
 			<div className={styles.div5}>
 				<img src="/logo-light.png" alt="" />
 				<h1>Made with 💗 by HustleTeam in India</h1>
-				<h1>© 2021, HustleX Fitness.</h1>
+				<h1>© 2022, HustleX Fitness.</h1>
 			</div>
 		</div>
 	);

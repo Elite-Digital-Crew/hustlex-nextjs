@@ -11,7 +11,7 @@ import styles from "../styles/Team.module.css";
 const Team: NextPage = () => {
 	return (
 		<div className={styles.page}>
-			<NavBar />
+			{/* <NavBar /> */}
 			<div className={styles.hero}>
 				<div className={styles.content}>
 					<h1>people building HustleX</h1>

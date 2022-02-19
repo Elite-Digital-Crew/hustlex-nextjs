@@ -7,7 +7,9 @@ import Head from "next/head";
 import NavBar from "../src/components/navBar";
 import Hero from "../src/components/home";
 import SubHero from "../src/components/subHero";
-import Lottie from "../src/components/lottie";
+import Feature from "../src/components/features";
+import Team from "../src/components/team";
+
 import { PreRegister } from "../src/components/preRegister";
 import { Footer } from "../src/components/footer";
 import { createRef } from "react";
@@ -66,7 +68,6 @@ const Home: NextPage = () => {
 			</Head>
 			<NavBar />
 			<Hero onScroll={scroll} title={"Gamified"} title2="Fitness" description="turn your fitness into a game!!"/>
-			<Lottie />
 			<SubHero
 				title={"game of fitness"}
 				discription={
@@ -81,13 +82,7 @@ const Home: NextPage = () => {
 				}
 				img={"/reward.png"}
 			/>
-			<SubHero
-				title={"HUSTLE \n MEET"}
-				discription={
-					"Share posts with friends, See what your friends are doing now with activity status. Find people to exercise or play with, in your locality with Hustle Meet."
-				}
-				img={"/workout.png"}
-			/>
+			<Feature />
 			<PreRegister ref={preRegisterRef} />
 			<Footer />
 		</div>

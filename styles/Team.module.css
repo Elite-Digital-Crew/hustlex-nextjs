@@ -1,11 +1,15 @@
+@font-face {
+  font-family: Integral;
+  src: url("/IntegralCF-ExtraBold.otf");
+}
 .page {
-  background-color: #101214;
+  background-color: #f4f4f4;
   z-index: -1;
   font-family: "Outfit", sans-serif;
 }
 .teamContainer {
   height: 72vh;
-  background-color: #121417;
+  background-color: #eeeff1;
   width: min (90vw, 1300px);
   display: flex;
   justify-content: center;
@@ -15,12 +19,18 @@
   height: 42vh;
   width: min(22vw, 320px);
   border-radius: 2vw;
-  background-color: #24282c;
+  background-color: #f9f9f9;
+  border: 2px solid #fc87db;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1vw;
+  transition: transform 0.5s ease;
+}
+.container:hover {
+  box-shadow: 4px 4px 0 0 #fc87db;
+  transform: translate(-4px, -4px);
 }
 
 /* hero  */
@@ -47,7 +57,7 @@
   font-size: min(4.2vw, 60px);
   line-height: 98%;
   letter-spacing: 3.5px;
-  color: #ffffff;
+  color: #050505;
   text-align: center;
   z-index: 1;
 }
@@ -57,7 +67,8 @@
   font-weight: 300;
   font-family: "Outfit", sans-serif;
   font-size: min(1.8vw, 24px);
-  color: #c6c6c6;
+  color: #050505;
+  opacity: 0.8;
   text-align: center;
   margin-top: 4vh;
   z-index: 1;
@@ -84,14 +95,14 @@
   text-align: center;
   font-family: "Outfit", sans-serif;
   font-weight: bold;
-  color: #fff;
+  color: #101010;
 }
 .text h2 {
   font-size: min(18px, 1.8vw);
   text-align: center;
   font-family: "Outfit", sans-serif;
   font-weight: 200;
-  color: #fff;
+  color: #101010;
 }
 
 .whyContainer {
@@ -116,7 +127,7 @@
   line-height: 96%;
   display: flex;
   letter-spacing: 3.5px;
-  color: #f4f4f4;
+  color: #050505;
 }
 .left p {
   font-family: "Outfit", sans-serif;
@@ -125,7 +136,8 @@
   font-size: min(1.6vw, 20px);
   line-height: 140%;
   margin-top: 2vh;
-  color: #c6c6c6;
+  color: #050505;
+  opacity: 0.8;
 }
 .right {
   display: flex;
@@ -146,13 +158,13 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  background-color: #121417;
+  background-color: #f9f9f9;
 }
 .jobcta h1 {
   font-family: "Outfit", sans-serif;
   font-weight: bold;
   font-size: min(3vw, 48px);
-  color: #f4f4f4;
+  color: #050505;
 }
 .jobcta a {
   font-family: "Outfit", sans-serif;
@@ -165,11 +177,15 @@
   font-family: Outfit;
   font-weight: 500;
   font-size: min(1.2vw, 16px);
-  background-color: #f4f4f4;
-  color: #121417;
-  border: none;
+  background-color: #050505;
+  color: #eeeff1;
+  border: 2px solid #050505;
   border-radius: min(1.2vw, 8px);
   margin: 2vw;
+}
+.jobcta a:hover {
+  box-shadow: 3px 3px 0 0 #fc87db;
+  transform: translate(-4px, -4px);
 }
 
 @media (max-width: 1024px) {

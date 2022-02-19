@@ -21,6 +21,14 @@ const Hero: FC<Props> = ({ onScroll, title, title2, description }) => {
 				<p>{description}</p>
 				<PreRegisterButton onScroll={onScroll} />
 			</div>
+			<div className={styles.left}>
+				<img className={styles.UI_img_1} src="./UI-MOCKUP-1.png" alt="coverImage" />
+				<img className={styles.UI_img_2} src="./UI-MOCKUP-2.png" alt="coverImage"/>
+				<img className={styles.UI_img_3} src="./UI-MOCKUP-3.png" alt="coverImage"/>
+				<img className={styles.bg_img_1} src="./coins_2.png" alt="coverImage" />
+				<img className={styles.bg_img_2} src="./coins.png" alt="coverImage" />
+				<img className={styles.bg_img_3} src="./grid.png" alt="coverImage" />
+			</div>
 		</div>
 	);
 };
