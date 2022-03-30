@@ -6,7 +6,6 @@ import Head from "next/head";
 
 import NavBar from "../src/components/navBar";
 import Hero from "../src/components/hero";
-import SubHero from "../src/components/subHero";
 import Team from "../src/components/team";
 
 import { PreRegister } from "../src/components/preRegister";
@@ -63,7 +62,11 @@ const Home: NextPage = () => {
 				></link>
 			</Head>
 			<NavBar />
-			<Hero onScroll={scroll} title={"GAMIFIED FITNESS"} description="HustleX combines gamification and fitness to create the best fitness experience ever."/>
+			<Hero
+				onScroll={scroll}
+				title={"GAMIFIED FITNESS"}
+				description="HustleX combines gamification and fitness to create the best fitness experience ever."
+			/>
 			<PreRegister ref={preRegisterRef} />
 			<Footer />
 		</div>
