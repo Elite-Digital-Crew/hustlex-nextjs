@@ -64,7 +64,6 @@ const Team: NextPage = () => {
 				<h1>Checkout the open positions</h1>
 				<Link href="/career">Take me there</Link>
 			</div>
-			<PreRegister />
 			<Footer />
 		</div>
 	);
