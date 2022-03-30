@@ -1,0 +1,77 @@
+/* navbar styling */
+.navBar {
+  height: 84px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafafa;
+  border-bottom: 1.2px solid #000000;
+  font-family: Outfit, sans-serif;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+.logo a img {
+  height: 3vh;
+  width: 5vw;
+}
+.navList {
+  z-index: 10;
+  width: 24vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navList li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 100%;
+}
+.navList li a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #050505;
+  font-size: 18px;
+}
+.button {
+  width: 140px;
+  height: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.2px solid #0a0a0a;
+  border-radius: 100px;
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+.button:hover {
+  background: #0a0a0a;
+  color: #fafafa;
+}
+
+@media (max-width: 1024px) {
+  .navBar {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+  .navList {
+    display: none;
+  }
+  .logo a img {
+    height: 100%;
+    width: auto;
+  }
+  .button {
+    display: none;
+  }
+}

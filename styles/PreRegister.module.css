@@ -1,99 +1,122 @@
 .container {
-  height: 72vh;
+  height: 742px;
   width: 100%;
   background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 12vh;
 }
-.container h1 {
-  font-weight: 800;
-  font-family: Integral;
-  font-size: min(5.4vw, 72px);
-  letter-spacing: 3.5px;
-  color: #050505;
-  text-align: center;
-}
-.container p {
-  color: #050505;
-  opacity: 0.8;
-  width: 30%;
-  font-weight: 300;
-  font-family: "Outfit", sans-serif;
-  font-size: min(1.6vw, 20px);
-  text-align: center;
-}
-
-.cta {
-  width: min(72%, 720px);
-  height: 8%;
+.mockup {
+  width: calc(50% + 3.2px);
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
-
-  @apply mt-5;
+  background: #e1f2fe;
+  border-left: 2.4px solid #000000;
 }
-.cta input {
+.container h1 {
   width: 100%;
-  height: 100%;
-  padding: 24px;
-  font-size: min(1.8vw, 18px);
-  font-family: "Outfit", sans-serif;
-  font-weight: 400;
-  /* border-top-left-radius: 12px; */
-  /* border-bottom-left-radius: 12px; */
-  background: #f2f5f8;
-  /* border: none; */
-}
-/* .cta button {
-  width: 30%;
-  height: 100%;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  background: #fed1f1;
-  border: none;
-  font-size: min(1.8vw, 18px);
-  font-family: "Outfit", sans-serif;
+  font-family: Integral;
   font-weight: 600;
-} */
-.pattern {
-  position: absolute;
-  left: 0;
-  height: 72vh;
+  font-size: 54px;
+  line-height: 69px;
+  letter-spacing: 3.5px;
+  color: #050505;
+}
+.container p {
+  width: 74%;
+  margin-top: 20px;
+  color: #050505;
+  font-weight: 300;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* inline-flex mt-10 w-full  lg:mt-0 */
+.span {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 40px;
+}
+.input {
+  width: 84%;
+  height: 84px;
+  background: #ffffff;
+  border-radius: 6px 0px 0px 6px;
+  padding: 2vw;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.button {
+  width: 16%;
+  height: 84px;
+  background: #e1f2fe;
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1024px) {
   .container {
-    height: 60vh;
-    padding: 0 2vw;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: 30%;
+    padding: 10vw;
+  }
+  .mockup {
+    width: 100%;
+    height: 70%;
+    border-left: none;
+  }
+  .mockup img {
+    width: auto;
+    height: 80%;
   }
   .container h1 {
-    font-size: min(7.2vw, 42px);
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: normal;
   }
   .container p {
-    width: 72%;
-    font-size: min(3.4vw, 24px);
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+    margin-top: 4px;
   }
-  .cta {
-    width: 90%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    outline: none;
+  .span {
+    margin-top: 8px;
   }
-  .cta input {
-    font-size: min(4vw, 20px);
+  .input {
+    height: 48px;
+    font-size: 14px;
+    padding: 4vw;
+    line-height: auto;
   }
-  .cta button {
-    width: 40%;
-    font-weight: 800;
-    font-size: min(3.2vw, 20px);
-  }
-  .pattern {
-    display: none;
+  .button {
+    height: 48px;
+    padding: 4vw;
   }
 }

@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import Link from "next/link";
 import { Footer } from "../src/components/footer";
-import Hero from "../src/components/home";
+import Hero from "../src/components/hero";
 import NavBar from "../src/components/navBar";
 import { PreRegister } from "../src/components/preRegister";
 

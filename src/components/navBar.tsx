@@ -1,31 +1,29 @@
 import Image from "next/image";
 import React from "react";
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/Nav.module.css";
 import Link from "next/link";
 
 const navBar = () => {
 	return (
 		<div>
 			<nav className={styles.navBar}>
+				<div className={styles.logo}>
+					<Link href="/">
+						<Image src="/logo.png" alt="Logo" width={112} height={24} />
+					</Link>
+				</div>
 				<ul className={styles.navList}>
-					<div className={styles.logo}>
-						<Link href="/">
-							<Image src="/logo.png" alt="Logo" width={112} height={24} />
-						</Link>
-					</div>
 					<li>
-						<Link href="/about">About</Link>
+						<Link href="/about">about</Link>
 					</li>
 					<li>
-						<Link href="#feature">Features</Link>
+						<Link href="#feature">carrer</Link>
 					</li>
 					<li>
-						<Link href="/team">Team</Link>
-					</li>
-					<li>
-						<Link href="#footer">Contact</Link>
+						<Link href="/team">team</Link>
 					</li>
 				</ul>
+				<a href="#join" className={styles.button}>join now</a>
 			</nav>
 		</div>
 	);

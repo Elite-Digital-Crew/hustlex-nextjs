@@ -1,13 +1,12 @@
 import type { NextPage } from "next";
 
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Hero.module.css";
 
 import Head from "next/head";
 
 import NavBar from "../src/components/navBar";
-import Hero from "../src/components/home";
+import Hero from "../src/components/hero";
 import SubHero from "../src/components/subHero";
-import Feature from "../src/components/features";
 import Team from "../src/components/team";
 
 import { PreRegister } from "../src/components/preRegister";
@@ -67,22 +66,7 @@ const Home: NextPage = () => {
 				></link>
 			</Head>
 			<NavBar />
-			<Hero onScroll={scroll} title={"Gamified"} title2="Fitness" description="turn your fitness into a game!!"/>
-			<SubHero
-				title={"game of fitness"}
-				discription={
-					"Challenges, Experience points, Badges, Leaderboards and more game like features to motivate you towards fitness."
-				}
-				img={"/event.png"}
-			/>
-			<SubHero
-				title={"Earn Rewards"}
-				discription={
-					"Every time you do something on HustleX, you receive Hustle coins. you can use these coins to get exclusive rewards."
-				}
-				img={"/reward.png"}
-			/>
-			<Feature />
+			<Hero onScroll={scroll} title={"GAMIFIED FITNESS"} description="HustleX combines gamification and fitness to create the best fitness experience ever."/>
 			<PreRegister ref={preRegisterRef} />
 			<Footer />
 		</div>

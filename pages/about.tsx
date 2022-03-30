@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Footer } from "../src/components/footer";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Hero.module.css";
 
 const About = () => {
 	return (

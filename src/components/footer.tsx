@@ -46,34 +46,25 @@ export const Footer = () => {
 						name="linkdinLogo.png"
 					/>
 				</div>
+				<h1>© 2022 | HustleX Fitness.</h1>
 			</div>
 			<div className={styles.div2}>
-				<h1 className={styles.txt}>Company</h1>
 				<Link name="About" href="/about" />
 				<Link name="Team" href="/team" />
 				<Link name="Carrer" href="/career" />
 				<Link name="Pitch Deck" href="/pitch-deck.pdf" />
 			</div>
 			<div className={styles.div3}>
-				<h1 className={styles.txt}>Links</h1>
-				<Link name="-" href="/" />
-				<Link name="-" href="/" />
-				<Link name="-" href="/" />
-				<Link name="-" href="/" />
+				<Link name="Terms" href="/" />
+				<Link name="Privacy policy" href="/" />
+				<Link name="Partner with us" href="/" />
+				<Link name="Get access" href="/" />
 			</div>
 			<div className={styles.div4}>
-				<h1 className={styles.txt}>Address</h1>
 				<p>
 					#23/1, 2nd Main, 5th Cross, Diwarapalya, Yeshwantpur, Banglore - 54,
 					India.
 				</p>
-				<h1 className={styles.txt}>Contact</h1>
-				<p>team@hustlex.club</p>
-			</div>
-			<div className={styles.div5}>
-				<img src="/logo-light.png" alt="" />
-				<h1>Made with 💗 by HustleTeam in India</h1>
-				<h1>© 2022, HustleX Fitness.</h1>
 			</div>
 		</div>
 	);

@@ -1,22 +1,22 @@
 .parent {
-  height: 64vh;
-  background: #121417;
+  height: 500px;
+  background: #000000;
   padding: 0 4vw;
   display: grid;
-  grid-template-columns: 1.5fr repeat(2, 1fr) 1.5fr;
-  grid-template-rows: 4fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .socialLink {
-  width: min(5vw, 52px);
-  height: min(5vw, 52px);
-  padding: min(1vw, 14px);
+  width: 42px;
+  height: 42px;
+  padding: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #707070;
+  background: #1f1f1f;
   border-radius: 50%;
   transition: transform 0.3s ease;
 }
@@ -36,16 +36,17 @@
   align-items: center;
 }
 .link h1 {
-  font-size: min(2vw, 20px);
   font-family: "Outfit", sans-serif;
-  font-weight: 400;
-  color: #c6c6c6;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
 }
 .txt {
   font-size: min(3vw, 20px);
   margin-bottom: 12px;
   font-family: Integral-Bold;
-  color: #f4f4f4;
+  color: #ffffff;
 }
 
 .div1 {
@@ -56,62 +57,53 @@
   grid-area: 1 / 1 / 2 / 2;
 }
 .logosm {
-  width: min(10vw, 72px);
-  height: min(10vw, 72px);
+  width: 72px;
+  height: 72px;
 }
 .div1 div {
   width: 100%;
-  max-width: 320px;
+  max-width: 280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8vh;
+  margin-top: 20px;
+}
+.div1 h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 20px;
 }
 .div2 {
-  padding: 1.2vw;
+  padding: 160px 1.2vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   grid-area: 1 / 2 / 2 / 3;
 }
 .div3 {
-  padding: 1.2vw;
+  padding: 160px 1.2vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   grid-area: 1 / 3 / 2 / 4;
 }
 .div4 {
-  padding: 1.2vw;
+  padding: 165px 1.2vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
   grid-area: 1 / 4 / 2 / 5;
 }
 .div4 p {
-  font-size: min(2vw, 18px);
+  height: 100%;
   font-family: "Outfit", sans-serif;
-  font-weight: 200;
-  color: #c6c6c6;
-}
-.div5 {
-  /* background-color: antiquewhite; */
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: #fa63ce solid 3.2px;
-  grid-area: 2 / 1 / 3 / 5;
-}
-.div5 img {
-  height: min(4vw, 28px);
-  width: auto;
-}
-.div5 h1 {
-  font-size: min(2vw, 12px);
-  font-family: "Outfit", sans-serif;
-  font-weight: 400;
-  color: #c6c6c6;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
 }
 
 @media (max-width: 1024px) {
@@ -123,54 +115,33 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-  }
-  .txt {
-    letter-spacing: 1px;
+    padding: 0;
   }
   .div1 {
     width: 72%;
-    padding: 4vh 0;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     grid-area: 1 / 1 / 2 / 3;
   }
-  .div1 p {
-    text-align: center;
-    font-size: min(3.2vw, 24px);
-    margin: 3.2vh 0;
+  .div1 h1 {
+    font-size: 12px;
+    line-height: auto;
   }
   .div2 {
+    padding: 40px 1.2vw;
     align-items: center;
     grid-area: 2 / 1 / 3 / 2;
   }
   .div3 {
+    padding: 40px 1.2vw;
     align-items: center;
     grid-area: 2 / 2 / 3 / 3;
   }
   .div4 {
     display: none;
-  }
-  .div5 {
-    margin-top: 2.8vh;
-    grid-area: 3 / 1 / 4 / 3;
-  }
-  .div5 h1 {
-    font-size: min(2.4vw, 24px);
-  }
-  .div5 img {
-    display: none;
-  }
-
-  .socialLink {
-    width: min(12vw, 54px);
-    height: min(12vw, 54px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #707070;
-    border-radius: 50%;
   }
   .socialLink img {
     width: min(5.4vw, 34px);

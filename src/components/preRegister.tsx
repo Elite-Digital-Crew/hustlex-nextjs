@@ -4,7 +4,6 @@ import {
 	ExclamationCircleIcon,
 	PlusCircleIcon,
 } from "@heroicons/react/outline";
-import Image from "next/image";
 import React, {
 	FC,
 	ForwardedRef,
@@ -19,6 +18,7 @@ import {
 	PRE_REGISTER_QUERY,
 	PRE_REGISTER_QUERY_RESULT,
 } from "../../queries/preRegister.query";
+
 import styles from "../../styles/PreRegister.module.css";
 
 export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
@@ -55,27 +55,27 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 
 	return (
 		<div ref={ref} className={styles.container} id="register">
-			<h1>PRE-REGISTER</h1>
-			<p className="mt-3">
-				Pre Register for early access and don&apos;t miss out on news and
-				updates about HustleX.
-			</p>
-			<span className="inline-flex mt-3">
-				<div className={styles.cta}>
+			<div className={styles.left} >
+				<div>
+					<h1>Join Beta</h1>
+					<p className="mt-3">
+						join our beta program and get early access to Hustlex, exclusive perks and more cool stuff. 
+					</p>
+				</div>
+				<span className={styles.span}>
 					<input
 						disabled={loading}
 						type="email"
-						placeholder="joe@gmail.com"
+						placeholder="Your email address"
 						onChange={(e) => setEmail(e.currentTarget.value)}
-						className="outline-none mt-0.5 border-2 border-pink rounded-lg"
+						className={styles.input}
 					/>
-				</div>
-				<button
-					disabled={loading}
-					className={`disabled:inline-flex ml-5 items-center px-4 py-2 h-12 w-44 text-center border-pink text-sm font-bold rounded-md shadow-sm text-white bg-epic-black hover:bg-pink focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:hover:bg-epic-black focus:ring-pink`}
-					onClick={() => preRegister()}
-				>
-					{loading && (
+					<button
+						disabled={loading}
+						className={styles.button}
+						onClick={() => preRegister()}
+					>
+						{loading ? 
 						<svg
 							className="h-9"
 							version="1.1"
@@ -89,7 +89,7 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 							xmlSpace="preserve"
 						>
 							<path
-								fill="#fff"
+								fill="#000"
 								d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
 							>
 								<animateTransform
@@ -103,18 +103,15 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 								/>
 							</path>
 						</svg>
-					)}
-					Pre-Register
-				</button>
-			</span>
-			<div className={styles.ctaALT}></div>
-			<img
-				src="/pattern.png"
-				alt=""
-				// width="30"
-				// height="100"
-				className={styles.pattern}
-			/>
+							:
+						<img src="./Arrow.svg" alt="icon" />
+						}
+					</button>
+				</span>
+			</div>
+			<div className={styles.mockup}>
+				<img src="/UI-MOCKUP-1.png" alt="mockup" />
+			</div>	
 		</div>
 	);
 });
