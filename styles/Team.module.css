@@ -1,284 +1,284 @@
 @font-face {
-  font-family: Integral;
-  src: url("/IntegralCF-ExtraBold.otf");
+	font-family: Integral;
+	src: url("/IntegralCF-ExtraBold.otf");
 }
 
-/* page */
+/* page. */
 .page {
-  background-color: #f4f4f4;
-  z-index: -1;
-  font-family: "Outfit", sans-serif;
+	background-color: #f4f4f4;
+	z-index: -1;
+	font-family: "Outfit", sans-serif;
 }
 .teamContainer {
-  height: 72vh;
-  background-color: #eeeff1;
-  width: min (90vw, 1300px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	height: 72vh;
+	background-color: #eeeff1;
+	width: min (90vw, 1300px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .container {
-  height: 42vh;
-  width: min(22vw, 320px);
-  border-radius: 2vw;
-  background-color: #f9f9f9;
-  border: 2px solid #fc87db;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1vw;
-  transition: transform 0.5s ease;
+	height: 42vh;
+	width: min(22vw, 320px);
+	border-radius: 2vw;
+	background-color: #f9f9f9;
+	border: 2px solid #fc87db;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1vw;
+	transition: transform 0.5s ease;
 }
 .container:hover {
-  box-shadow: 4px 4px 0 0 #fc87db;
-  transform: translate(-4px, -4px);
+	box-shadow: 4px 4px 0 0 #fc87db;
+	transform: translate(-4px, -4px);
 }
 
 /* hero  */
 .hero {
-  width: 100vw;
-  height: 82vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	width: 100vw;
+	height: 82vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .content {
-  margin: auto;
-  display: flex;
-  /* background-color: antiquewhite; */
-  height: 24%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+	margin: auto;
+	display: flex;
+	/* background-color: antiquewhite; */
+	height: 24%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 .content h1 {
-  width: 70%;
-  font-weight: 900;
-  font-family: Integral;
-  font-size: min(4.2vw, 60px);
-  line-height: 98%;
-  letter-spacing: 3.5px;
-  color: #050505;
-  text-align: center;
-  z-index: 1;
+	width: 70%;
+	font-weight: 900;
+	font-family: Integral;
+	font-size: min(4.2vw, 60px);
+	line-height: 98%;
+	letter-spacing: 3.5px;
+	color: #050505;
+	text-align: center;
+	z-index: 1;
 }
 .content p {
-  z-index: 1;
-  width: 50%;
-  font-weight: 300;
-  font-family: "Outfit", sans-serif;
-  font-size: min(1.8vw, 24px);
-  color: #050505;
-  opacity: 0.8;
-  text-align: center;
-  margin-top: 4vh;
-  z-index: 1;
+	z-index: 1;
+	width: 50%;
+	font-weight: 300;
+	font-family: "Outfit", sans-serif;
+	font-size: min(1.8vw, 24px);
+	color: #050505;
+	opacity: 0.8;
+	text-align: center;
+	margin-top: 4vh;
+	z-index: 1;
 }
 .heroimg {
-  position: absolute;
-  top: 0;
-  z-index: 0;
-  height: 90vh;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	height: 90vh;
 }
 
 .img {
-  height: 24vh;
-  width: 24vh;
+	height: 24vh;
+	width: 24vh;
 }
 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .text h1 {
-  font-size: min(24px, 2.4vw);
-  text-align: center;
-  font-family: "Outfit", sans-serif;
-  font-weight: bold;
-  color: #101010;
+	font-size: min(24px, 2.4vw);
+	text-align: center;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+	color: #101010;
 }
 .text h2 {
-  font-size: min(18px, 1.8vw);
-  text-align: center;
-  font-family: "Outfit", sans-serif;
-  font-weight: 200;
-  color: #101010;
+	font-size: min(18px, 1.8vw);
+	text-align: center;
+	font-family: "Outfit", sans-serif;
+	font-weight: 200;
+	color: #101010;
 }
 
 .whyContainer {
-  height: min(74vh, 600px);
-  width: min(100vw, 1500px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
+	height: min(74vh, 600px);
+	width: min(100vw, 1500px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
 }
 .left {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  padding: 3.4vw;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 3.4vw;
 }
 .left h1 {
-  font-family: Integral;
-  font-style: normal;
-  font-weight: 900;
-  font-size: min(3.4vw, 34px);
-  line-height: 96%;
-  display: flex;
-  letter-spacing: 3.5px;
-  color: #050505;
+	font-family: Integral;
+	font-style: normal;
+	font-weight: 900;
+	font-size: min(3.4vw, 34px);
+	line-height: 96%;
+	display: flex;
+	letter-spacing: 3.5px;
+	color: #050505;
 }
 .left p {
-  font-family: "Outfit", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: min(1.6vw, 20px);
-  line-height: 140%;
-  margin-top: 2vh;
-  color: #050505;
-  opacity: 0.8;
+	font-family: "Outfit", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: min(1.6vw, 20px);
+	line-height: 140%;
+	margin-top: 2vh;
+	color: #050505;
+	opacity: 0.8;
 }
 .right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
 }
 .whyimg {
-  width: 50%;
-  object-fit: cover;
+	width: 50%;
+	object-fit: cover;
 }
 
 .jobcta {
-  height: min(74vh, 600px);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  background-color: #f9f9f9;
+	height: min(74vh, 600px);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	background-color: #f9f9f9;
 }
 .jobcta h1 {
-  font-family: "Outfit", sans-serif;
-  font-weight: bold;
-  font-size: min(3vw, 48px);
-  color: #050505;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+	font-size: min(3vw, 48px);
+	color: #050505;
 }
 .jobcta a {
-  font-family: "Outfit", sans-serif;
-  width: min(18vw, 150px);
-  height: min(4vw, 45px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	font-family: "Outfit", sans-serif;
+	width: min(18vw, 150px);
+	height: min(4vw, 45px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-  font-family: Outfit;
-  font-weight: 500;
-  font-size: min(1.2vw, 16px);
-  background-color: #050505;
-  color: #eeeff1;
-  border: 2px solid #050505;
-  border-radius: min(1.2vw, 8px);
-  margin: 2vw;
+	font-family: Outfit;
+	font-weight: 500;
+	font-size: min(1.2vw, 16px);
+	background-color: #050505;
+	color: #eeeff1;
+	border: 2px solid #050505;
+	border-radius: min(1.2vw, 8px);
+	margin: 2vw;
 }
 .jobcta a:hover {
-  box-shadow: 3px 3px 0 0 #fc87db;
-  transform: translate(-4px, -4px);
+	box-shadow: 3px 3px 0 0 #fc87db;
+	transform: translate(-4px, -4px);
 }
 
 @media (max-width: 1024px) {
-  /* hero styling */
-  .hero {
-    height: 72vh;
-  }
-  .content {
-    align-items: center;
-  }
-  .hero h1 {
-    width: 350px;
-    font-size: min(54px, 8vw);
-    text-align: center;
-    line-height: 120%;
-  }
-  .hero h2 {
-    font-size: min(60px, 12vw);
-    width: 360px;
-    text-align: center;
-  }
-  .hero p {
-    font-size: 12px;
-    text-align: center;
-  }
-  .heroimg {
-    display: none;
-  }
+	/* hero styling */
+	.hero {
+		height: 72vh;
+	}
+	.content {
+		align-items: center;
+	}
+	.hero h1 {
+		width: 350px;
+		font-size: min(54px, 8vw);
+		text-align: center;
+		line-height: 120%;
+	}
+	.hero h2 {
+		font-size: min(60px, 12vw);
+		width: 360px;
+		text-align: center;
+	}
+	.hero p {
+		font-size: 12px;
+		text-align: center;
+	}
+	.heroimg {
+		display: none;
+	}
 
-  /* team styling */
-  .teamContainer {
-    height: 150vh;
-    flex-direction: column;
-  }
-  .container {
-    width: 72vw;
-    height: 34vh;
-    margin: 1vw;
-  }
-  .text h1 {
-    font-size: min(42px, 5vw);
-  }
-  .text h2 {
-    font-size: min(36px, 3.4vw);
-  }
+	/* team styling */
+	.teamContainer {
+		height: 150vh;
+		flex-direction: column;
+	}
+	.container {
+		width: 72vw;
+		height: 34vh;
+		margin: 1vw;
+	}
+	.text h1 {
+		font-size: min(42px, 5vw);
+	}
+	.text h2 {
+		font-size: min(36px, 3.4vw);
+	}
 
-  /* why styling */
-  .whyContainer {
-    height: 54vh;
-    flex-direction: column;
-  }
-  .left {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 12vw;
-  }
-  .left h1 {
-    font-size: min(5.4vw, 34px);
-    line-height: 120%;
-    width: 100%;
-    letter-spacing: 3.5px;
-  }
-  .left p {
-    font-size: min(3.6vw, 34px);
-    line-height: 150%;
-    margin-top: 2vh;
-  }
-  .right {
-    width: 100%;
-    height: 50%;
-    padding: 2vw;
-  }
-  .whyimg {
-    height: 100%;
-    object-fit: contain;
-  }
+	/* why styling */
+	.whyContainer {
+		height: 54vh;
+		flex-direction: column;
+	}
+	.left {
+		width: 100%;
+		height: 50%;
+		display: flex;
+		flex-direction: column;
+		padding: 12vw;
+	}
+	.left h1 {
+		font-size: min(5.4vw, 34px);
+		line-height: 120%;
+		width: 100%;
+		letter-spacing: 3.5px;
+	}
+	.left p {
+		font-size: min(3.6vw, 34px);
+		line-height: 150%;
+		margin-top: 2vh;
+	}
+	.right {
+		width: 100%;
+		height: 50%;
+		padding: 2vw;
+	}
+	.whyimg {
+		height: 100%;
+		object-fit: contain;
+	}
 
-  /* job styling */
-  .jobcta {
-    height: min(34vh, 320px);
-  }
-  .jobcta h1 {
-    font-size: min(5vw, 42px);
-  }
-  .jobcta a {
-    width: min(24vw, 100px);
-    height: min(8vw, 34px);
-    font-size: min(2.8vw, 28px);
-    border-radius: min(1.4vw, 12px);
-    margin: 5vw;
-  }
+	/* job styling */
+	.jobcta {
+		height: min(34vh, 320px);
+	}
+	.jobcta h1 {
+		font-size: min(5vw, 42px);
+	}
+	.jobcta a {
+		width: min(24vw, 100px);
+		height: min(8vw, 34px);
+		font-size: min(2.8vw, 28px);
+		border-radius: min(1.4vw, 12px);
+		margin: 5vw;
+	}
 }
