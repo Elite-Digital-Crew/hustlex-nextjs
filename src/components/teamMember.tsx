@@ -5,20 +5,22 @@ interface Props {
     name: string;
     role: string;
     img: string;
-    discription: string;
-    linkdin?: string;
+    twitter?: string;
 }
 
 // SubHero
 const Member = (props:Props) => {
 	return (
-        <div className={styles.container} id="feature">
-            <div className={styles.img}>
-                <img src={props.img} alt=""/>
-            </div>
-            <div className={styles.text}>
-                <h1>{props.name}</h1>
-                <h2>{props.role}</h2>
+        <div className={styles.memberContainer} id="feature">
+            <img src={props.img} alt=""/>
+            <div className={styles.memberSub}>
+                <div className={styles.text}>
+                    <h1>{props.name}</h1>
+                    <h2>{props.role}</h2>
+                </div>
+                <a href={props.twitter}>
+                    <img src={'/twitter.png'} alt=""/>
+                </a>
             </div>
 		</div>
 	);

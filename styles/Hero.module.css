@@ -126,7 +126,6 @@
   justify-content: center;
 }
 .aboutnav {
-  margin-top: -12vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,18 +134,38 @@
   height: 10vh;
   width: auto;
 }
+.button {
+  width: 140px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.2px solid #0a0a0a;
+  border-radius: 100px;
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+.button:hover {
+  background: #0a0a0a;
+  color: #fafafa;
+}
 .aboutContainer h1 {
-  font-family: Integral;
+  font-family: "Outfit";
+  font-weight: 500;
   font-size: 54px;
-  text-align: left;
-  margin-top: 12vh;
+  letter-spacing: 0.2px;
+  margin-top: 82px;
 }
 .aboutContainer p {
-  font-family: "Outfit", sans-serif;
-  font-weight: 400;
-  margin-top: 4vh;
-  font-size: min(1.8vw, 16px);
-  text-align: left;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin-bottom: 54px;
 }
 
 @media (max-width: 1024px) {
@@ -203,13 +222,11 @@
     margin-top: 12px;
   }
 
-  .aboutnav img {
-    height: 7.2vh;
+  .aboutContainer {
+    height: auto;
   }
   .aboutContainer h1 {
-    font-size: 42px;
-  }
-  .aboutContainer p {
-    font-size: 14px;
+    line-height: normal;
+    margin: 24px 0;
   }
 }

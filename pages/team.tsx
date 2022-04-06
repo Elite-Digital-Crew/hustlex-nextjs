@@ -11,58 +11,39 @@ import styles from "../styles/Team.module.css";
 const Team: NextPage = () => {
 	return (
 		<div className={styles.page}>
-			{/* <NavBar /> */}
-			<div className={styles.hero}>
-				<div className={styles.content}>
-					<h1>people building HustleX</h1>
-					<p>
-						Get to know more about us, what we do. Let us know if you would like
-						to work with us.
-					</p>
+			<div className={styles.container}>
+				<div className={styles.nav}>
+					<img src="./logo-p.png" alt="logo" />
+					<a href="/" className={styles.button}>back to website</a>
 				</div>
+				<h1>meet our team.</h1>
 			</div>
 			<div className={styles.teamContainer}>
 				<Member
 					name="Chinmay P Dev"
-					role="Founder & CEO"
+					role="Founder"
 					img="./team-1.png"
-					discription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					twitter="https://twitter.com/chinmay_x"
+				/>
+				<Member
+					name="Samuel Villegas"
+					role="Teach Lead"
+					img="./team-3.png"
+					twitter="https://twitter.com/devsamuelv"
 				/>
 				<Member
 					name="Ritesh Parmar"
 					role="Product Designer"
 					img="./team-2.png"
-					discription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				/>
-				<Member
-					name="Samuel Villegas"
-					role="Tech Lead"
-					img="./team-3.png"
-					discription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				/>
-				<Member
-					name="Priyanshu Dutta"
-					role="Business"
-					img="./team-4.png"
-					discription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					twitter="https://www.linkedin.com/in/riteshparmar7/"
 				/>
 			</div>
-			<div className={styles.whyContainer}>
-				<div className={styles.left}>
-					<h1>Why you should join us?</h1>
-					<p>
-						we are gen-z minds working on a problem, encouraging team that
-						craves to execute. working for a greater cause and real issue. we
-						are looking for people who always want to hustle!!!
-					</p>
-				</div>
-				<div className={styles.right}>
-					<img src={"./team-join.png"} alt="" className={styles.whyimg} />
-				</div>
-			</div>
-			<div className={styles.jobcta}>
-				<h1>Checkout the open positions</h1>
-				<Link href="/career">Take me there</Link>
+			<div className={styles.textContainer}>
+				<p>
+					we are gen-z minds that craves to execute, working for a greater cause and real issue. Building the best ever fitness experience isn’t easy and can’t be done alone. We are looking for dope people who want to impact the world and build their career. <br/> <br/>
+					check for open positions and if you think you are a good fit, we are glad to get you on board. if you dont find any relavent roles, reach out to us and we might help you in some way. 
+				</p>
+				<a href="/career" className={styles.button}>open positions</a>
 			</div>
 			<Footer />
 		</div>

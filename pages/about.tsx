@@ -9,11 +9,9 @@ const About = () => {
 			<div className={styles.aboutContainer}>
 				<div className={styles.aboutnav}>
 					<img src="./logo-p.png" alt="logo" />
-					<div className={styles.btn}>
-						<Link href="/">Back to website</Link>
-					</div>
+					<a href="/" className={styles.button}>back to website</a>
 				</div>
-				<h1>About HustleX</h1>
+				<h1>about hustlex.</h1>
 				<p>
 					HustleX is a gamified fitness app that rewards individuals for their
 					fitness activity by providing them with exclusive offers from premium
