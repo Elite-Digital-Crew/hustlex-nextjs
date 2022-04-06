@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Footer } from "../src/components/footer";
@@ -9,7 +10,9 @@ const About = () => {
 			<div className={styles.aboutContainer}>
 				<div className={styles.aboutnav}>
 					<img src="./logo-p.png" alt="logo" />
-					<a href="/" className={styles.button}>back to website</a>
+					<Link href="/">
+						<a className={styles.button}>back to website</a>
+					</Link>
 				</div>
 				<h1>about hustlex.</h1>
 				<p>

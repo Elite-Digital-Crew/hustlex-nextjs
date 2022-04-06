@@ -6,7 +6,6 @@ import Head from "next/head";
 
 import NavBar from "../src/components/navBar";
 import Hero from "../src/components/hero";
-import Team from "../src/components/team";
 
 import { PreRegister } from "../src/components/preRegister";
 import { Footer } from "../src/components/footer";

@@ -9,7 +9,7 @@ const navBar = () => {
 			<nav className={styles.navBar}>
 				<div className={styles.logo}>
 					<Link href="/">
-						<img src="/logo.png" alt="Logo" width={112} height={24} />
+						<Image src="/logo.png" alt="Logo" width={180} height={54} />
 					</Link>
 				</div>
 				<ul className={styles.navList}>
@@ -23,7 +23,9 @@ const navBar = () => {
 						<Link href="/team">team</Link>
 					</li>
 				</ul>
-				<a href="#join" className={styles.button}>join now</a>
+				<Link href="#join" passHref>
+					<a className={styles.button}>join now</a>
+				</Link>
 			</nav>
 		</div>
 	);
