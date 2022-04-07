@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Hero.module.css";
 
-// Career Page
+// Career Page v2
 const Career: NextPage = () => {
 	return (
 		<div className={styles.hero}>
