@@ -14,7 +14,7 @@ const About = () => {
 						<a className={styles.button}>back to website</a>
 					</Link>
 				</div>
-				<h1>about hustlex.</h1>
+				<h1>about us.</h1>
 				<p>
 					HustleX is a gamified fitness app that rewards individuals for their
 					fitness activity by providing them with exclusive offers from premium
