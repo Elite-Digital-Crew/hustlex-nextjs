@@ -56,8 +56,8 @@ export const Footer = () => {
 				<Link name="Pitch Deck" href="/pitch-deck.pdf" />
 			</div>
 			<div className={styles.div3}>
-				<Link name="Terms" href="/" />
-				<Link name="Privacy policy" href="/" />
+				<Link name="Terms" href="/terms" />
+				<Link name="Privacy policy" href="/privacy" />
 				<Link name="Partner with us" href="/" />
 				<Link name="Get access" href="/" />
 			</div>
