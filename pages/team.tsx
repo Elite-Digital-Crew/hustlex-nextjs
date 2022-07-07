@@ -34,12 +34,6 @@ const Team: NextPage = () => {
 					img="./team-3.png"
 					twitter="https://twitter.com/devsamuelv"
 				/>
-				<Member
-					name="Ritesh Parmar"
-					role="Product Designer"
-					img="./team-2.png"
-					twitter="https://www.linkedin.com/in/riteshparmar7/"
-				/>
 			</div>
 			<div className={styles.textContainer}>
 				<p>

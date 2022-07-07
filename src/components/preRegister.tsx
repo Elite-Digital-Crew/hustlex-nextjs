@@ -57,9 +57,9 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 		<div ref={ref} className={styles.container} id="register">
 			<div className={styles.left} >
 				<div>
-					<h1>Join Beta</h1>
+					<h1>join club</h1>
 					<p className="mt-3">
-						join our beta program and get early access to Hustlex, exclusive perks and more cool stuff. 
+						join hustle club and be the first ones to acess the best fitness experience ever created. 
 					</p>
 				</div>
 				<span className={styles.span}>

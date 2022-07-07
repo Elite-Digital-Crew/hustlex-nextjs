@@ -63,7 +63,7 @@ const Home: NextPage = () => {
 			<NavBar />
 			<Hero
 				onScroll={scroll}
-				title={"GAMIFIED FITNESS"}
+				title={"Reimagine."}
 				description="HustleX combines gamification and fitness to create the best fitness experience ever."
 			/>
 			<PreRegister ref={preRegisterRef} />

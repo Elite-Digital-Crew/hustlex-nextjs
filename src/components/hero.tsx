@@ -25,11 +25,11 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
 			<div className={styles.info}>
 				<div className={styles.info1}>
 					<h1>We take your motivation seriously.</h1>
-					<p>stay motivated towards your fitness goals by the game-like experience with levels, badges, battlepass and a lot more cool stuff.</p>
+					<p>reimagine your fitness experience by integrating game mechanics into daily fitness routine.</p>
 				</div>
 				<div className={styles.info2}>
 					<h1>Get rewards for doing the things you love.</h1>
-					<p>whenever you do a fitness activity, you earn hustle coins, use hustle coins to get exclusive rewards and curated products from top brands.</p>
+					<p>whenever you do a fitness activity, you earn hustle coins, use hustle coins to get exclusive rewards and products from top brands.</p>
 				</div>
 			</div>
 		</div>
