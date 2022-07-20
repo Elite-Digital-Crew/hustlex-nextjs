@@ -30,15 +30,20 @@ const Team: NextPage = () => {
 				/>
 				<Member
 					name="Samuel Villegas"
-					role="Teach Lead"
+					role="Tech Lead"
 					img="./team-3.png"
 					twitter="https://twitter.com/devsamuelv"
 				/>
 			</div>
 			<div className={styles.textContainer}>
 				<p>
-					we are gen-z minds that craves to execute, working for a greater cause and real issue. Building the best ever fitness experience isn’t easy and can’t be done alone. We are looking for dope people who want to impact the world and build their career. <br/> <br/>
-					check for open positions and if you think you are a good fit, we are glad to get you on board. if you dont find any relavent roles, reach out to us and we might help you in some way. 
+					we are gen-z minds that craves to execute, working for a greater cause
+					and real issue. Building the best ever fitness experience isn’t easy
+					and can’t be done alone. We are looking for dope people who want to
+					impact the world and build their career. <br /> <br />
+					check for open positions and if you think you are a good fit, we are
+					glad to get you on board. if you dont find any relavent roles, reach
+					out to us and we might help you in some way.
 				</p>
 				<Link href="/career">
 					<a className={styles.button}>open positions</a>
