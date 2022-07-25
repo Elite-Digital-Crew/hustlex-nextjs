@@ -54,7 +54,7 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 	};
 
 	return (
-		<div ref={ref} className={styles.container} id="register">
+		<div ref={ref} className={styles.container} id="join">
 			<div className={styles.left} >
 				<div>
 					<h1>join club</h1>
