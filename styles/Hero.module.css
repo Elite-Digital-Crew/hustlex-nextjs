@@ -1,112 +1,90 @@
 /* custom fonts  */
 @font-face {
   font-family: Integral;
-  src: url("/IntegralCF-ExtraBold.otf");
+  src: url("/font-basement.otf");
 }
 @font-face {
   font-family: Integral-Bold;
   src: url("/IntegralCF-Bold.otf");
 }
 
-.container {
-  background-color: #f4f4f4;
-  scroll-behavior: smooth;
-  padding: 0%;
-}
-
 /* hero styling */
 .hero {
   width: 100%;
-  height: 800px;
+  height: 900px;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   background-color: #f9f9f9;
-  border-bottom: 2.4px solid #000000;
+  border-bottom: 1px solid #f9f9f9;
+}
+.hero div {
+  width: 50vw;  
+  height: 900px;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right {
+  padding: 100px;
+}
+.right nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
 }
 .hero h1 {
   font-weight: 800;
   font-family: Integral;
-  font-size: 120px;
-  letter-spacing: 3.5px;
-  line-height: 90%;
+  font-size: 60px;
+  width: 80%;
+  line-height: 120%;
   color: #050505;
+  margin-bottom: 50px;
 }
-.hero p {
-  position: absolute;
-  top: 645px;
-  left: 2vw;
-  width: 286px;
+.hero h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  width: 90%;
   color: #000000;
-}
-.hero div {
-  width: 500px;
-  position: absolute;
-  top: 560px;
-  right: max(-180px, -14vw);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #050505;
-  transform: rotate(-90deg);
-}
-.hero img {
-  margin-right: 24px;
-  width: 48px;
-  height: 24px;
-}
-
-/* 1 */
-.imgContainer {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fedcf4;
-  border-bottom: 2.4px solid #000000;
-}
-.imgContainer img {
-  padding-top: 12vh;
-  padding-bottom: 12vh;
-  width: min(80%, 1310px);
-  height: auto;
-  object-fit: cover;
 }
 
 /* 2 */
+.dummy {
+  height: 100%;
+  width: 1px;
+  background-color: #f9f9f9;
+}
 .info {
   width: 100%;
-  height: 742px;
+  height: 700px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-bottom: 2.4px solid #000000;
+  justify-content: space-evenly;
+  background-color: #050505;
 }
 .info1,
 .info2 {
-  width: 50%;
+  width: 450px;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24vh;
-}
-.info1 {
-  border-right: 2.4px solid #000000;
 }
 .info h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
-  font-size: 54px;
+  font-size: min(4.2vw, 42px);
   line-height: 120%;
+  color: #f9f9f9;
 }
 .info p {
   font-family: "Outfit", sans-serif;
@@ -114,6 +92,64 @@
   font-size: 28px;
   line-height: 35px;
   margin-top: 34px;
+  color: #f9f9f9;
+}
+
+/* features styling */
+.features {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2.4px solid #050505;
+}
+.F1,.F2,.F3 {
+  width: 33.3333%;
+  height: 850px;
+  border-right: 2px solid #050505;
+}
+.F1 {
+  background: #33FF99;
+}
+.F2 {
+  background: #FFEE33;
+}
+.F3 {
+  background: #FF33FE;
+}
+.text {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 50px;
+  border-bottom: 1px solid #050505;
+}
+.text h1 {
+  font-family: Integral;
+  text-align: center;
+  font-weight: 800;
+  font-size: 32px;
+  color: #050505;
+}
+.text p {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  width: min(100%, 400px);
+  color: #050505;
+}
+.img {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
 }
 
 /* about styling */
@@ -152,8 +188,7 @@
   color: #fafafa;
 }
 .aboutContainer h1 {
-  font-family: "Outfit";
-  font-weight: 500;
+  font-family: Integral;
   font-size: 54px;
   letter-spacing: 0.2px;
   margin-top: 82px;
@@ -172,32 +207,50 @@
 @media (max-width: 1024px) {
   /* hero styling */
   .hero {
-    height: 90vh;
+    height: 75vh;
     width: 100%;
     flex-direction: column;
   }
+  .right nav {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 20px 0px;
+    padding-bottom: 60px;
+  }
+  .left {
+    display: none;
+  }
+  .hero img {
+    display: none;
+  }
   .hero h1 {
-    font-size: min(60px, 12vw);
-    width: 360px;
+    font-size: 42px;
+    width: 90vw;
     text-align: center;
   }
-  .hero p {
-    top: 72vh;
-    width: 50%;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #000000;
+  .hero h2 {
+    font-size: 20px;
+    width: 90vw;
+    text-align: center;
   }
-  .hero div {
-    width: 50vh;
-    top: 70vh;
-    right: -45vw;
-    font-size: 14px;
-  }
+
   .info {
-    height: 100vh;
-    flex-direction: column;
+    height: 90vh;
+    flex-direction: column; 
+  }
+  .dummy {
+    display: none;
+  }
+  .info1 {
+    border-bottom: 1px solid #f9f9f9;
   }
   .info1,
   .info2 {
@@ -207,20 +260,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 12vw;
-  }
-  .info1 {
-    border-right: none;
-    border-bottom: 2.4px solid #000000;
+    padding: 10vw;
   }
   .info h1 {
-    font-size: 32px;
-    line-height: 120%;
+    font-size: 36px;
   }
   .info p {
     font-size: 20px;
-    line-height: 35px;
-    margin-top: 12px;
   }
 
   .aboutContainer {
@@ -229,5 +275,26 @@
   .aboutContainer h1 {
     line-height: normal;
     margin: 24px 0;
+  }
+
+  /* features */
+  .features {
+    width: 100vw;
+    height: 180vh;
+    flex-direction: column;
+  }
+  .F1,.F2,.F3 {
+    width: 100%;
+    height: 60vh;
+    border-right: 2px solid #050505;
+  }
+  .text h1 {
+    font-size: 24px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+  .img {
+    padding: 20vw;
   }
 }

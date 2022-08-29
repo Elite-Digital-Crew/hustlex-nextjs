@@ -1,10 +1,10 @@
 .container {
   height: 742px;
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: #101010;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .left {
   width: 50%;
@@ -12,8 +12,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 12vh;
+  align-items: flex-start;
+  padding: 12vh 10vw;
 }
 .mockup {
   width: calc(50% + 3.2px);
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e1f2fe;
+  background: #9833FF;
   border-left: 2.4px solid #000000;
 }
 .container h1 {
@@ -31,12 +31,12 @@
   font-size: 54px;
   line-height: 69px;
   letter-spacing: 3.5px;
-  color: #050505;
+  color: #f9f9f9;
 }
 .container p {
   width: 74%;
   margin-top: 20px;
-  color: #050505;
+  color: #f9f9f9;
   font-weight: 300;
   font-family: "Outfit", sans-serif;
   font-weight: 200;
@@ -46,13 +46,13 @@
 
 /* inline-flex mt-10 w-full  lg:mt-0 */
 .span {
-  display: inline-flex;
   width: 100%;
+  display: inline-flex;
   margin-top: 40px;
 }
 .input {
-  width: 84%;
-  height: 84px;
+  width: 600px;
+  height: 100px;
   background: #ffffff;
   border-radius: 6px 0px 0px 6px;
   padding: 2vw;
@@ -63,28 +63,29 @@
   color: #000000;
 }
 .button {
-  width: 16%;
-  height: 84px;
+  width: 100px;
+  height: 100px;
   background: #3FAFF4;
   border-radius: 0px 6px 6px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 12px;
 }
 
 @media (max-width: 1024px) {
   .container {
     height: 100vh;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .left {
     width: 100%;
-    height: 30%;
+    height: 50%;
     padding: 10vw;
   }
   .mockup {
     width: 100%;
-    height: 70%;
+    height: 50%;
     border-left: none;
   }
   .mockup img {
@@ -92,22 +93,16 @@
     height: 80%;
   }
   .container h1 {
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
     font-size: 32px;
-    line-height: 120%;
-    letter-spacing: normal;
   }
   .container p {
     width: 100%;
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: normal;
     margin-top: 4px;
   }
   .span {
-    margin-top: 8px;
+    margin-top: 40px;
   }
   .input {
     height: 48px;

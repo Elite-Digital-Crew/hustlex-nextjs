@@ -60,7 +60,6 @@ const Home: NextPage = () => {
 					rel="stylesheet"
 				></link>
 			</Head>
-			<NavBar />
 			<Hero
 				onScroll={scroll}
 				title={"Reimagine."}
