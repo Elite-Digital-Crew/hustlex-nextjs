@@ -25,7 +25,7 @@ const Team: NextPage = () => {
 				<Member
 					name="Chinmay P Dev"
 					role="Founder"
-					img="./team-1.png"
+					img="./team-1.jpg"
 					twitter="https://twitter.com/chinmay_x"
 				/>
 				<Member

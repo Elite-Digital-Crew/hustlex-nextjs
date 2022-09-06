@@ -24,6 +24,9 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
 					</nav>
 					<h1>earn hustle coins by doing fitness activity, use them to claim rewards.</h1>
 					<h2>HustleX combines gamification and fitness to create the best fitness experience ever. reimagine your fitness experience by integrating game mechanics into daily fitness routine.</h2>
+					<Link href="#join" passHref>
+						<a className={styles.button}>get access</a>
+					</Link>
 				</div>
 				<div className={styles.left}>
 					<img src="/hero.png" alt="club" />
