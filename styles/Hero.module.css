@@ -204,7 +204,7 @@
 @media (max-width: 1024px) {
   /* hero styling */
   .hero {
-    height: 80vh;
+    height: 700px;
     width: 100%;
     flex-direction: column;
   }
@@ -230,18 +230,18 @@
     display: none;
   }
   .hero h1 {
-    font-size: 42px;
+    font-size: 36px;
     width: 90vw;
     text-align: center;
   }
   .hero h2 {
-    font-size: 20px;
+    font-size: 18px;
     width: 90vw;
     text-align: center;
   }
 
   .info {
-    height: 90vh;
+    height: 900px;
     flex-direction: column; 
   }
   .dummy {
@@ -278,17 +278,17 @@
   /* features */
   .features {
     width: 100vw;
-    height: 180vh;
+    height: 1500px;
     flex-direction: column;
     background-color: #000000;
   }
   .F1,.F2,.F3 {
     width: 90%;
-    height: 54vh;
+    height: 450px;
     border: solid 1px #050505;
   }
   .text {
-    padding: 20px 40px;
+    padding: 20px 20px;
   }
   .text h1 {
     font-size: 24px;

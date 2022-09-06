@@ -75,7 +75,7 @@
 
 @media (max-width: 1024px) {
   .container {
-    height: 100vh;
+    height: 900px;
     flex-direction: column-reverse;
   }
   .left {
@@ -94,6 +94,7 @@
   }
   .container h1 {
     font-size: 32px;
+    letter-spacing: normal;
   }
   .container p {
     width: 100%;
