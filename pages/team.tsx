@@ -24,13 +24,13 @@ const Team: NextPage = () => {
 			<div className={styles.teamContainer}>
 				<Member
 					name="Chinmay P Dev"
-					role="Founder"
+					role="Devloper & Designer"
 					img="./team-1.jpg"
 					twitter="https://twitter.com/chinmay_x"
 				/>
 				<Member
 					name="Samuel Villegas"
-					role="Tech Lead"
+					role="Software devloper"
 					img="./team-3.png"
 					twitter="https://twitter.com/devsamuelv"
 				/>

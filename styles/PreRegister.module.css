@@ -1,7 +1,7 @@
 .container {
   height: 742px;
   width: 100%;
-  background-color: #101010;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -30,13 +30,13 @@
   font-weight: 600;
   font-size: 54px;
   line-height: 69px;
-  letter-spacing: 3.5px;
-  color: #f9f9f9;
+  letter-spacing: 1px;
+  color: #050505;
 }
 .container p {
   width: 74%;
   margin-top: 20px;
-  color: #f9f9f9;
+  color: #050505;
   font-weight: 300;
   font-family: "Outfit", sans-serif;
   font-weight: 200;
@@ -57,7 +57,7 @@
   border-radius: 6px 0px 0px 6px;
   padding: 2vw;
   font-family: "Outfit", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   line-height: 25px;
   color: #000000;
@@ -65,7 +65,7 @@
 .button {
   width: 100px;
   height: 100px;
-  background: #3FAFF4;
+  background: #33A9FF;
   border-radius: 0px 6px 6px 0px;
   display: flex;
   justify-content: center;
@@ -106,13 +106,13 @@
     margin-top: 40px;
   }
   .input {
-    height: 48px;
+    height: 54px;
     font-size: 14px;
     padding: 4vw;
     line-height: auto;
   }
   .button {
-    height: 48px;
+    height: 54px;
     padding: 4vw;
   }
 }
