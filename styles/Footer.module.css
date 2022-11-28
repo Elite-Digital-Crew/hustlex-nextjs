@@ -143,9 +143,10 @@
   .div4 {
     display: none;
   }
-  .socialLink img {
-    width: min(5.4vw, 34px);
-    height: min(5.4vw, 34px);
+  .socialLink {
+    width: 45px;
+    height: 45px;
+    /* padding: 12px; */
   }
   .link h1 {
     font-size: min(3.8vw, 24px);
