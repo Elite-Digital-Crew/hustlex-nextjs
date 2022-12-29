@@ -8,6 +8,7 @@
   src: url("/IntegralCF-Bold.otf");
 }
 
+
 /* hero styling */
 .hero {
   width: 100%;
@@ -99,58 +100,54 @@
 /* features styling */
 .features {
   width: 100%;
-  height: 850px;
+  /* height: 850px; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 2.4px solid #050505;
 }
 .F1,.F2,.F3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 33.3333%;
-  height: 850px;
+  height: 550px;
   border-right: 2px solid #050505;
+  background-color: #050505;
 }
 .F1 {
-  background: #33FF99;
+  background: #3333FF;
 }
 .F2 {
-  background: #FFEE33;
+  background: #9833FF;
 }
 .F3 {
-  background: #FF33FE;
+  background: #0D0D0D;
 }
 .text {
-  height: 30%;
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   padding: 20px 50px;
-  border-bottom: 1px solid #050505;
 }
 .text h1 {
   font-family: Integral;
   text-align: center;
   font-weight: 800;
   font-size: 32px;
-  color: #050505;
-}
-.text p {
-  font-family: "Outfit", sans-serif;
-  text-align: center;
-  font-weight: 500;
-  font-size: 20px;
-  width: min(100%, 400px);
-  color: #050505;
+  color: #f9f9f9;
 }
 .img {
   height: 70%;
   width: 100%;
+  max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px;
+  padding: 50px;
 }
 
 /* about styling */
@@ -287,6 +284,9 @@
     height: 450px;
     border: solid 1px #050505;
   }
+  .img {
+    max-width: 90vw;
+  }
   .text {
     padding: 20px 20px;
   }
@@ -297,6 +297,12 @@
     font-size: 16px;
   }
   .img {
-    padding: 20vw;
+    height: 70%;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
   }
 }

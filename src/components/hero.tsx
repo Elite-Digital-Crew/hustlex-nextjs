@@ -59,11 +59,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
       <div className={styles.features}>
         <div className={styles.F1}>
           <div className={styles.text}>
-            <h1>daily rewards</h1>
-            <p>
-              get hustle coins for your daily activities like steps, calories
-              burnt, active minutes, and daily check-in.{" "}
-            </p>
+            <h1>Daily Fitness Rewards</h1>
           </div>
           <div className={styles.img}>
             <img src="/F1.png" alt="feature" />
@@ -71,11 +67,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         </div>
         <div className={styles.F3}>
           <div className={styles.text}>
-            <h1>levels</h1>
-            <p>
-              get xp by doing stuff on the app and level up to unlock premium
-              perks and access to new challenges and rewards.
-            </p>
+            <h1>Earn Hustle Coins</h1>
           </div>
           <div className={styles.img}>
             <img src="/F3.png" alt="feature" />
@@ -83,11 +75,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         </div>
         <div className={styles.F2}>
           <div className={styles.text}>
-            <h1>challenges</h1>
-            <p>
-              join challenges to complete and earn hustle coins and more xp
-              points to level-up your account.
-            </p>
+            <h1>Join Exciting Challenges</h1>
           </div>
           <div className={styles.img}>
             <img src="/F2.png" alt="feature" />
