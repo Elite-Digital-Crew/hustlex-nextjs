@@ -31,9 +31,22 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
             experience ever. reimagine your fitness experience by integrating
             game mechanics into daily fitness routine.
           </h2>
-          <Link href="#join" passHref>
-            <a className={styles.button}>join waitlist</a>
-          </Link>
+          <section className={styles.QR}>
+            <div>
+              <img src="/QR.png" alt="Playstore Link" />
+            </div>
+            <p>
+              download <br /> the beta now!!
+            </p>
+          </section>
+          <section className={styles.Playstore}>
+            <a href="https://play.google.com/store/apps/details?id=com.hustlex.mvp">
+              <img src="/playstore-icon.png" alt="Playstore Link" />
+            </a>
+            <p>
+              download <br /> the beta now!!
+            </p>
+          </section>
         </div>
         <div className={styles.left}>
           <img src="/hero.png" alt="club" />
@@ -43,7 +56,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         <div className={styles.info1}>
           <h1>We take your motivation seriously.</h1>
           <p>
-            reimagine the fitness experience by integrating game mechanics into
+            reimagine your fitness experience by integrating game mechanics into
             daily fitness routine.
           </p>
         </div>
