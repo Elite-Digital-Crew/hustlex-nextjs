@@ -31,9 +31,22 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
             experience ever. reimagine your fitness experience by integrating
             game mechanics into daily fitness routine.
           </h2>
-          <Link href="#join" passHref>
-            <a className={styles.button}>join waitlist</a>
-          </Link>
+          <section className={styles.QR}>
+            <div>
+              <img src="/QR.png" alt="Playstore Link" />
+            </div>
+            <p>
+              download <br /> the beta now!!
+            </p>
+          </section>
+          <section className={styles.Playstore}>
+            <a href="https://play.google.com/store/apps/details?id=com.hustlex.mvp">
+              <img src="/playstore-icon.png" alt="Playstore Link" />
+            </a>
+            <p>
+              download <br /> the beta now!!
+            </p>
+          </section>
         </div>
         <div className={styles.left}>
           <img src="/hero.png" alt="club" />
@@ -43,7 +56,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         <div className={styles.info1}>
           <h1>We take your motivation seriously.</h1>
           <p>
-            reimagine the fitness experience by integrating game mechanics into
+            reimagine your fitness experience by integrating game mechanics into
             daily fitness routine.
           </p>
         </div>
@@ -59,11 +72,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
       <div className={styles.features}>
         <div className={styles.F1}>
           <div className={styles.text}>
-            <h1>daily rewards</h1>
-            <p>
-              get hustle coins for your daily activities like steps, calories
-              burnt, active minutes, and daily check-in.{" "}
-            </p>
+            <h1>Daily Fitness Rewards</h1>
           </div>
           <div className={styles.img}>
             <img src="/F1.png" alt="feature" />
@@ -71,11 +80,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         </div>
         <div className={styles.F3}>
           <div className={styles.text}>
-            <h1>levels</h1>
-            <p>
-              get xp by doing stuff on the app and level up to unlock premium
-              perks and access to new challenges and rewards.
-            </p>
+            <h1>Earn Hustle Coins</h1>
           </div>
           <div className={styles.img}>
             <img src="/F3.png" alt="feature" />
@@ -83,11 +88,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         </div>
         <div className={styles.F2}>
           <div className={styles.text}>
-            <h1>challenges</h1>
-            <p>
-              join challenges to complete and earn hustle coins and more xp
-              points to level-up your account.
-            </p>
+            <h1>Join Exciting Challenges</h1>
           </div>
           <div className={styles.img}>
             <img src="/F2.png" alt="feature" />
