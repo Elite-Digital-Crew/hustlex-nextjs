@@ -7,6 +7,10 @@
   font-family: Integral-Bold;
   src: url("/IntegralCF-Bold.otf");
 }
+@font-face {
+  font-family: PlayFair;
+  src: url("/PlayfairDisplay.ttf");
+}
 
 
 /* hero styling */
@@ -117,17 +121,37 @@
 .info h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
-  font-size: min(4.2vw, 42px);
+  font-size: min(4.2vw, 54px);
   line-height: 120%;
   color: #f9f9f9;
+  width: 100%;
+}
+.info h2 {
+  font-family: "PlayFair", sans-serif;
+  font-weight: 800;
+  font-size: min(4.2vw, 54px);
+  line-height: 120%;
+  color: #0000ff;
+  text-align: left;
+  width: 100%;
 }
 .info p {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 35px;
   margin-top: 34px;
   color: #f9f9f9;
+  width: 100%;
+}
+.info span {
+  font-family: "PlayFair", sans-serif;
+  font-weight: 800;
+  font-size: min(4.2vw, 54px);
+  line-height: 120%;
+  color: #0000ff;
+  text-align: left;
+  width: 100%;
 }
 
 /* features styling */
