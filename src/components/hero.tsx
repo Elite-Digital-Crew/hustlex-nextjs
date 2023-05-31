@@ -29,6 +29,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         <Link href="#join" passHref>
           <a className={styles.button}>join now</a>
         </Link>
+        <div></div>
       </div>
       <div className={styles.info}>
         <div className={styles.info1}>

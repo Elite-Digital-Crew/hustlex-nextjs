@@ -41,7 +41,7 @@
   justify-content: space-between;
   width: 80%;
   background-color: #E6E6E6;
-  padding: 20px 50px;
+  padding: 12px 50px;
   margin-bottom: 50px;
   border-radius: 100px;
 }
@@ -267,8 +267,7 @@
   width: auto;
 }
 .button {
-  width: 140px;
-  height: 50px;
+  padding: 12px 40px;
   display: flex;
   align-items: center;
   justify-content: center;
