@@ -182,6 +182,11 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+.mockups img {
+  height: 100%;
+  object-fit: cover;
+}
 .mockup1, .mockup2 {
   width: 50vw;
   height: 100%;
@@ -189,7 +194,7 @@
   flex-direction: row;
   align-items: end;
   justify-content: space-between;
-  padding: 8vw;
+  padding: 6vw 8vw;
 }
 .mockup1 h1,
 .mockup2 h1 {
@@ -235,9 +240,10 @@
   display: flex;
   flex-direction: column; 
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #000000;
   border: 0.5px solid #141414;
+  padding: 4vw;
 }
 .featuresTop div h1 {
   font-family: "PlayFair", sans-serif;
@@ -246,8 +252,9 @@
   color: #f9f9f9;
 }
 .featuresTop div img{
-  width: 250px;
-  height: auto;
+  width: 100%;
+  object-fit: cover;
+  /* height: auto; */
 }
 
 /* about styling */
@@ -350,6 +357,7 @@
   }
   .mockup1, .mockup2 {
     width: 100%;
+    padding: 8vw 10vw;
     height: 50%;
     flex-direction: column;
     justify-content: center;
@@ -379,6 +387,7 @@
   }
   .featuresTop div {
     width: 100%;
+    padding: 8vw;
   }
 
 
