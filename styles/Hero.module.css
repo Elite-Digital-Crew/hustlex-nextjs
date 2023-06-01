@@ -139,7 +139,7 @@
   color: #f9f9f9;
   width: 100%;
 }
-.info h2 {
+.info i {
   font-family: "PlayFair", sans-serif;
   font-weight: 800;
   font-size: min(4.2vw, 54px);
@@ -182,7 +182,7 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.mockup1 {
+.mockup1, .mockup2 {
   width: 50vw;
   height: 100%;
   display: flex;
@@ -191,11 +191,13 @@
   justify-content: space-between;
   padding: 8vw;
 }
-.mockup1 h1 {
+.mockup1 h1,
+.mockup2 h1 {
   font-family: "Basement", sans-serif;
   font-size: min(4.2vw, 32px);
 }
-.mockup1 p {
+.mockup1 p,
+.mockup2 p {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -266,7 +268,7 @@
   height: 10vh;
   width: auto;
 }
-.button {
+.button, .button2 {
   padding: 12px 40px;
   display: flex;
   align-items: center;
@@ -296,144 +298,88 @@
 }
 
 @media (max-width: 1024px) {
-  /* hero styling */
-  .hero {
-    height: 800px;
-    width: 100%;
-    flex-direction: column;
+  .hero nav {
+    justify-content: center;
+    padding: 1vh 0vw;
   }
-  .right nav {
-    height: 12vh;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 0px;
-  }
-  .right nav a {
+  .button{
     display: none;
   }
-  .right {
-    /* width: 100vw; */
-    align-items: center;
-    padding: 0px;
-    padding-bottom: 6vh;
-  }
-  .left {
-    display: none;
-  }
-  .hero img {
-    display: none;
-  }
-  .hero h1 {
-    font-size: 36px;
-    width: 90vw;
-    text-align: center;
+  .hero h1{
+    font-size: 12vw;
   }
   .hero h2 {
-    font-size: 18px;
-    width: 90vw;
-    text-align: center;
-  }
-
-  /* playstore */
-  .Playstore {  
-    display: flex;
-    width: 64vw;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: #33FF99; */
-  }
-  .Playstore a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 64px;
-    height: 64px;
-    /* background-color: #f2f2f2; */
-    border: #050505 solid 2px;
-    padding: 12px;
-  }
-  .Playstore a img {
-    display: block;
     width: 100%;
-    height: 100%;
-  }
-  .Playstore p {
-    margin-left: 12px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    color: #050505;
-  }
-  .QR {
-    display: none;
+    font-size: 24px;
   }
 
-  .info {
-    height: 900px;
-    flex-direction: column; 
-  }
-  .dummy {
+  .dummy{
     display: none;
   }
-  .info1 {
-    border-bottom: 1px solid #f9f9f9;
+  .info {
+    flex-direction: column;
   }
-  .info1,
-  .info2 {
+  .info1, .info2 {
     width: 100%;
     height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10vw;
+    padding: 8vw;
   }
   .info h1 {
-    font-size: 36px;
+    font-size: 42px;
+  }
+  .info i {
+    width: 100%;
+    font-size: 42px;
+    text-align: left;
   }
   .info p {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: normal;
   }
 
-  .aboutContainer {
+  .mockupbg {
+    display: none;
+  }
+  .mockups {
+    height: auto;
+    flex-direction: column;
+  }
+  .mockup1, .mockup2 {
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mockup2 {
+    flex-direction: column-reverse;
+  }
+  .mockup1 h1, .mockup2 h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .mockup1 p, .mockup2 p {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 4vh;
+  }
+
+  .features{
+    width: 100%;
     height: auto;
   }
-  .aboutContainer h1 {
-    line-height: normal;
-    margin: 24px 0;
+  .featuresTop {
+    width: 100%;
+    flex-direction: column;
+  }
+  .featuresTop div {
+    width: 100%;
   }
 
-  /* features */
-  .features {
-    width: 100vw;
-    height: 1500px;
-    flex-direction: column;
-    background-color: #000000;
-  }
-  .F1,.F2,.F3 {
-    width: 90%;
-    height: 450px;
-    border: solid 1px #050505;
-  }
-  .img {
-    max-width: 90vw;
-  }
-  .text {
-    padding: 20px 20px;
-  }
-  .text h1 {
-    font-size: 24px;
-  }
-  .text p {
-    font-size: 16px;
-  }
-  .img {
-    height: 70%;
-    width: 100%;
-    max-width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5vw;
-  }
+
 }

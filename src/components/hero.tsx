@@ -27,7 +27,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         </h1>
         <h2>Reimagine fitness with HustleX.</h2>
         <Link href="#join" passHref>
-          <a className={styles.button}>join now</a>
+          <a className={styles.button2}>join now</a>
         </Link>
         <div></div>
       </div>
@@ -36,9 +36,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
           <h1>
             Turn your daily <br /> fitness into a
           </h1>
-          <h2>
-            <i>Game</i>
-          </h2>
+          <i>Game</i>
           <p>
             - Get xp and level up. <br /> - Complete challenges. <br /> - 1v1
             your Friends to epic battles <br /> - Grind to top of the
@@ -48,11 +46,9 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
         <div className={styles.dummy}></div>
         <div className={styles.info2}>
           <h1>
-            Get{" "}
-            <span>
-              <i>Rewards</i>
-            </span>{" "}
-            for <br /> doing the things <br /> you love.
+            Get<i>Rewards</i>
+            <br />
+            for doing the things you love.
           </h1>
           <p>
             whenever you do a fitness activity, you earn hustle coins, use
@@ -72,7 +68,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
           </div>
           <img src="./mockup-1.png" alt="" />
         </div>
-        <div className={styles.mockup1}>
+        <div className={styles.mockup2}>
           <img src="./mockup-2.png" alt="" />
           <div>
             <h1>Rewards</h1>
