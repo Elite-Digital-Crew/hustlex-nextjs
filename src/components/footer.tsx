@@ -59,7 +59,10 @@ export const Footer = () => {
         <Link name="Terms" href="/terms" />
         <Link name="Privacy policy" href="/privacy" />
         <Link name="Partner with us" href="/" />
-        <Link name="Get access" href="/" />
+        <Link
+          name="Get access"
+          href="https://play.google.com/store/apps/details?id=com.hustlex.mvp"
+        />
       </div>
       <div className={styles.div4}>
         <p>

@@ -58,7 +58,7 @@
 .memberContainer {
   display: flex;
   flex-direction: column;
-  width: min(30%, 300px);
+  width: min(24%, 300px);
   justify-content: center;
 }
 .memberSub {

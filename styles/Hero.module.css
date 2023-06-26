@@ -12,6 +12,17 @@
   src: url("/PlayfairDisplay.ttf");
 }
 
+.mainText {
+  font-family: PlayFair, sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #050505;
+}
+.mainText i {
+  color: #0000ff;
+  font-weight: 1000;
+}
 
 /* hero styling */
 .hero {
