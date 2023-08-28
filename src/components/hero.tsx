@@ -12,7 +12,9 @@ type Props = {
 const Hero: FC<Props> = ({ onScroll, title, description }) => {
   return (
     <>
-      <img src="/hero.png" alt="hero" className={styles.herobg} />
+      <div className={styles.herobg}>
+        <Image layout="fill" src="/hero.png" alt="hero" />
+      </div>
       <div className={styles.hero}>
         <nav>
           <Link href="/">
@@ -56,7 +58,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
           </p>
         </div>
       </div>
-      <img className={styles.mockupbg} src="./hero-2.png" alt="features" />
+      <img className={styles.mockupbg} src="/hero-2.png" alt="features" />
       <div className={styles.mockups}>
         <div className={styles.mockup1}>
           <div>
@@ -66,10 +68,10 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
               1v1 Battles and more... to earn Hustle Coins and XP.
             </p>
           </div>
-          <img src="./mockup-1.png" alt="" />
+          <img src="/mockup-1.png" alt="" />
         </div>
         <div className={styles.mockup2}>
-          <img src="./mockup-2.png" alt="" />
+          <img src="/mockup-2.png" alt="" />
           <div>
             <h1>Rewards</h1>
             <p>
@@ -79,7 +81,9 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
           </div>
         </div>
       </div>
-      <img className={styles.featuresbg} src="./hero-3.png" alt="features" />
+      <div className={styles.herobg}>
+        <Image layout="fill" src="/hero-3.png" alt="features" />
+      </div>
       <div className={styles.features}>
         <div className={styles.featuresTop}>
           <div>

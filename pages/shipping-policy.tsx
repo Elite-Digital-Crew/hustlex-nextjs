@@ -10,7 +10,7 @@ const About = () => {
     <div>
       <div className={styles.aboutContainer}>
         <div className={styles.aboutnav}>
-          <img src="./logo-p.png" alt="logo" />
+          <Image layout="fill" src="./logo-p.png" alt="logo" />
           <Link href="/">
             <a className={styles.button}>back to website</a>
           </Link>

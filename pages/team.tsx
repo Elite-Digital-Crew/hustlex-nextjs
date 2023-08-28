@@ -14,7 +14,7 @@ const Team: NextPage = () => {
     <div className={styles.page}>
       <div className={styles.container}>
         <div className={styles.nav}>
-          <img src="./logo-p.png" alt="logo" />
+          <Image width={72} height={72} src="/logo-p.png" alt="logo" />
           <Link href="/">
             <a className={styles.button}>back to website</a>
           </Link>
@@ -25,19 +25,19 @@ const Team: NextPage = () => {
         <Member
           name="Chinmay P Dev"
           role="Founder, Engineer & Designer"
-          img="./team-1.jpg"
+          img="/team-1.jpg"
           twitter="https://twitter.com/chinmay_x"
         />
         <Member
           name="Siddharth Bharadwaj"
           role="Full-Stack Engineer"
-          img="./team-2.png"
+          img="/team-2.png"
           twitter="https://github.com/Sid110307"
         />
         <Member
           name="Samuel Villegas"
           role="Backend Engineer"
-          img="./team-3.png"
+          img="/team-3.png"
           twitter="https://twitter.com/devsamuelv"
         />
       </div>

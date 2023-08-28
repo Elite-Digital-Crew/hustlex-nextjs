@@ -15,12 +15,12 @@ interface SocialLinkProps {
 const Link = (props: LinkProps) => (
   <a href={props.href} className={styles.link}>
     <h1>{props.name}</h1>
-    <img src="/icon.svg" alt="" />
+    <Image width={16} height={16} src="/icon.svg" alt="" />
   </a>
 );
 const SocialLink = (props: SocialLinkProps) => (
   <a href={props.href} className={styles.socialLink}>
-    <img src={props.name} alt={props.name} />
+    <Image width={54} height={54} src={props.name} alt={props.name} />
   </a>
 );
 
@@ -32,19 +32,19 @@ export const Footer = () => {
         <div>
           <SocialLink
             href="https://twitter.com/hustlexclub"
-            name="twitter.png"
+            name="/twitter.png"
           />
           <SocialLink
             href="https://www.instagram.com/hustlex.club/"
-            name="instagram.png"
+            name="/instagram.png"
           />
           <SocialLink
             href="mailto:chinmaypdev.offical@gmail.com"
-            name="mail.png"
+            name="/mail.png"
           />
           <SocialLink
             href="https://www.linkedin.com/company/hustlexclub/"
-            name="linkdinLogo.png"
+            name="/linkdinLogo.png"
           />
         </div>
         <h1>© 2022 | HustleX Fitness.</h1>

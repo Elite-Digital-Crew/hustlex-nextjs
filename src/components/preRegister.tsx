@@ -1,4 +1,5 @@
 import { useToast } from "@chakra-ui/react";
+import Image from "next/image";
 import {
   CheckCircleIcon,
   ExclamationCircleIcon,
@@ -78,10 +79,20 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
         </div>
         <div className={styles.download}>
           <div>
-            <img src="/QR.png" alt="Playstore Link" />
+            <Image
+              width={100}
+              height={100}
+              src="/QR.png"
+              alt="Playstore Link"
+            />
           </div>
           <a href="https://play.google.com/store/apps/details?id=com.hustlex.mvp">
-            <img src="/playstore-icon.png" alt="Playstore Link" />
+            <Image
+              width={100}
+              height={100}
+              src="/playstore-icon.png"
+              alt="Playstore Link"
+            />
           </a>
         </div>
       </div>

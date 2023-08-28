@@ -194,7 +194,7 @@
   justify-content: space-evenly;
 }
 
-.mockups img {
+.mockups Img {
   height: 100%;
   object-fit: cover;
 }
@@ -401,5 +401,6 @@
     padding: 8vw;
   }
 
+  
 
 }
