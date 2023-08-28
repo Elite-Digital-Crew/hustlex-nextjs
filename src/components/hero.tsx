@@ -81,9 +81,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
           </div>
         </div>
       </div>
-      <div className={styles.herobg}>
-        <Image layout="fill" src="/hero-3.png" alt="features" />
-      </div>
+      <img className={styles.featuresbg} src="/hero-3.png" alt="features" />
       <div className={styles.features}>
         <div className={styles.featuresTop}>
           <div>
