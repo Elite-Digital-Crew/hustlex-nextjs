@@ -64,9 +64,7 @@ export const Footer = () => {
         />
       </div>
       <div className={styles.div4}>
-        <p>
-          #12, Keerthi Layout, Binnamangala, Nelamangala, Bangalore - 562123
-        </p>
+        <p>#22/58, Rajajinagar, Bangalore - 560010</p>
       </div>
     </div>
   );

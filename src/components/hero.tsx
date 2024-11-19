@@ -25,9 +25,11 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
           </Link>
         </nav>
         <h1>
-          Get <i>Rewards</i> for <br /> being <i>Fit.</i>
+          <i>
+            <span>Re</span>imagine <br /> Fitness
+          </i>
         </h1>
-        <h2>Reimagine fitness with HustleX.</h2>
+        <h2>Crafted for the dedicated..</h2>
         <Link href="#join" passHref>
           <a className={styles.button2}>join now</a>
         </Link>
