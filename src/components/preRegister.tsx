@@ -67,37 +67,25 @@ export const PreRegister = forwardRef<HTMLInputElement>((_, ref) => {
 
   return (
     <div ref={ref} className={styles.container} id="join">
-      <div className={styles.left}>
-        <div>
-          <i>
-            <h1>Get the App</h1>
-          </i>
-          <p className="mt-3 tracking-wide">
-            join our open beta program and get early access to Hustlex,
-            exclusive perks and more cool stuff.
-          </p>
-        </div>
-        <div className={styles.download}>
-          <div>
-            <Image
-              width={100}
-              height={100}
-              src="/QR.png"
-              alt="Playstore Link"
-            />
-          </div>
-          <a href="https://play.google.com/store/apps/details?id=com.hustlex.mvp">
-            <Image
-              width={100}
-              height={100}
-              src="/playstore-icon.png"
-              alt="Playstore Link"
-            />
-          </a>
-        </div>
+      <div className={styles.imageContainer}>
+        <Image
+          src="/register-bg.png"
+          alt="register-bg"
+          // 100% width and height
+          width={500}
+          height={500}
+        />
       </div>
-      <div className={styles.mockup}>
-        <img src="/UI-MOCKUP-1.png" alt="mockup" />
+      <div className={styles.subContainer}>
+        <h1>A World Awaits</h1>
+        <p>
+          Great things take time. join the waitlist to get access to the best
+          fitness experice ever created.
+        </p>
+        <input type="text" />
+        <button>
+          <h2>Join Waitlist</h2>
+        </button>
       </div>
     </div>
   );
