@@ -16,134 +16,167 @@ const Policy = () => {
         </div>
         <h1>Privacy Policy</h1>
         <p>
-          HustleX Fitness built HustleX as a Free app. This SERVICE is provided
-          by HustleX Fitness at no cost and is intended for use as is. This page
-          is used to inform visitors regarding our policies with the collection,
-          use, and disclosure of Personal Information if anyone decided to use
-          our Service. If you choose to use our Service, then you agree to the
-          collection and use of information in relation to this policy. The
-          Personal Information that we collect is used for providing and
-          improving the Service. We will not use or share your information with
-          anyone except as described in this Privacy Policy. The terms used in
-          this Privacy Policy have the same meanings as in our Terms and
-          Conditions, which are accessible at HustleX unless otherwise defined
-          in this Privacy Policy.
+          <strong>Privacy Policy</strong>
           <br />
-          <br />
-          <br />
-          Information Collection and Use
-          <br />
-          <br />
-          For a better experience, while using our Service, we may require you
-          to provide us with certain personally identifiable information,
-          including but not limited to name, email address, mobile number. The
-          information that we request will be retained by us and used as
-          described in this privacy policy.
-          <br />
-          <br />
-          <br />
-          How we collect information?
-          <br />
-          <br />
-          In order to register as a user with the Platform, you have to sign in
-          using your google account. If You do so, You authorize Us to access
-          certain account information, such as Your public profile (consistent
-          with your privacy settings in google). You will also be asked to allow
-          Us to collect Your fitness information from GoogleFit when you use the
-          Platform.
-          <br />
-          <br />
-          <br />
-          Log Data
-          <br />
-          <br />
-          We want to inform you that whenever you use our Service, in a case of
-          an error in the app we collect data and information (through
-          third-party products) on your phone called Log Data. This Log Data may
-          include information such as your device Internet Protocol (“IP”)
-          address, device name, operating system version, the configuration of
-          the app when utilizing our Service, the time and date of your use of
-          the Service, and other statistics.
-          <br />
-          <br />
-          <br />
-          Cookies
-          <br />
-          <br />
-          Cookies are files with a small amount of data that are commonly used
-          as anonymous unique identifiers. These are sent to your browser from
-          the websites that you visit and are stored on your device`&apos;`s
-          internal memory. This Service does not use these “cookies” explicitly.
-          However, the app may use third-party code and libraries that use
-          “cookies” to collect information and improve their services. You have
-          the option to either accept or refuse these cookies and know when a
-          cookie is being sent to your device. If you choose to refuse our
-          cookies, you may not be able to use some portions of this Service.
-          <br />
-          <br />
-          <br />
-          Service Providers
-          <br />
-          <br />
-          We may employ third-party companies and individuals due to the
-          following reasons: - To facilitate our Service; - To provide the
-          Service on our behalf; - To perform Service-related services; or - To
-          assist us in analyzing how our Service is used. We want to inform
-          users of this Service that these third parties have access to their
-          Personal Information. The reason is to perform the tasks assigned to
-          them on our behalf. However, they are obligated not to disclose or use
-          the information for any other purpose.
-          <br />
-          <br />
-          <br />
-          Security
-          <br />
-          <br />
-          We value your trust in providing us your Personal Information, thus we
-          are striving to use commercially acceptable means of protecting it.
-          But remember that no method of transmission over the internet, or
-          method of electronic storage is 100% secure and reliable, and we
-          cannot guarantee its absolute security. Links to Other Sites This
-          Service may contain links to other sites. If you click on a
-          third-party link, you will be directed to that site. Note that these
-          external sites are not operated by us. Therefore, we strongly advise
-          you to review the Privacy Policy of these websites. We have no control
-          over and assume no responsibility for the content, privacy policies,
-          or practices of any third-party sites or services.
-          <br />
-          <br />
-          <br />
-          Children’s Privacy
-          <br />
-          <br />
-          These Services do not address anyone under the age of 13. We do not
-          knowingly collect personally identifiable information from children
-          under 13 years of age. In the case we discover that a child under 13
-          has provided us with personal information, we immediately delete this
-          from our servers. If you are a parent or guardian and you are aware
-          that your child has provided us with personal information, please
-          contact us so that we will be able to do the necessary actions.
-          <br />
-          <br />
-          <br />
-          Changes to This Privacy Policy
-          <br />
-          <br />
-          We may update our Privacy Policy from time to time. Thus, you are
-          advised to review this page periodically for any changes. We will
-          notify you of any changes by posting the new Privacy Policy on this
-          page.
-          <br />
-          This policy is effective as of 2022-04-22
-          <br />
-          <br />
-          <br />
-          Contact Us
-          <br />
-          <br />
-          If you have any questions or suggestions about our Privacy Policy, do
-          not hesitate to contact us at team@hustlex.club.
+          Effective Date: 28-06-2024
         </p>
+
+        <p>
+          Welcome to Hustlex! Your privacy is important to us, and we are
+          committed to protecting your personal data. This Privacy Policy
+          outlines how we collect, use, and protect the information you provide
+          while using our app and services.
+        </p>
+
+        <p>
+          <strong>Who We Are</strong>
+          <br />
+          Hustlex is operated by an individual based in Karnataka, India. For
+          questions or concerns regarding this policy, you can contact us at:
+          <br />- <strong>Email:</strong> social.hustlex@gmail.com
+          <br />- <strong>Phone:</strong> +91 9141196450
+        </p>
+
+        <p>
+          <strong>Data We Collect</strong>
+        </p>
+
+        <p>
+          <strong>Personal Information</strong>
+          <br />
+          When you use Hustlex, we may collect the following personal
+          information:
+          <br />
+          - First and Last Name
+          <br />
+          - Email Address
+          <br />
+          - Phone Number
+          <br />- Address, State, and Pin Code
+        </p>
+
+        <p>
+          <strong>Device Permissions</strong>
+          <br />
+          To provide app functionality, we may request access to:
+          <br />- <strong>Camera:</strong> For features requiring image input,
+          such as progress tracking.
+          <br />- <strong>Microphone:</strong> For voice input features and
+          communication purposes.
+        </p>
+
+        <p>
+          <strong>Usage Data</strong>
+          <br />
+          We collect information about your app usage to improve performance and
+          personalize your experience.
+        </p>
+
+        <p>
+          <strong>How We Use Your Data</strong>
+          <br />
+          The data collected is used for the following purposes:
+          <br />
+          - Rewarding fitness achievements.
+          <br />
+          - Sending promotional or service-related emails (only if you opt-in).
+          <br />- Analyzing app usage and improving user experience using{" "}
+          <strong>PostHog</strong>. Learn more about their privacy practices{" "}
+          <a href="https://posthog.com/privacy" target="_blank">
+            here
+          </a>
+          .<br />- Processing payments via{" "}
+          <strong>Apple In-App Purchase</strong>,{" "}
+          <strong>Google Play In-App Purchase</strong>, and{" "}
+          <strong>Razorpay</strong>.<br />- Marketing and remarketing through
+          services like <strong>Google Ads</strong>,{" "}
+          <strong>Facebook Ads</strong>, and <strong>Twitter Ads</strong>.
+        </p>
+
+        <p>
+          <strong>Payment Processing</strong>
+          <br />
+          We do not store or handle your payment information directly. Payments
+          are processed securely through trusted platforms, including:
+          <br />
+          - Apple In-App Purchase
+          <br />
+          - Google Play In-App Purchase
+          <br />- Razorpay
+        </p>
+
+        <p>
+          <strong>Advertising</strong>
+          <br />
+          Hustlex does not display advertisements within the app. However, we
+          use external remarketing services to advertise on platforms like
+          Google, Facebook, and Twitter.
+        </p>
+
+        <p>
+          <strong>Your Choices</strong>
+        </p>
+
+        <p>
+          <strong>Email Communication:</strong> You can opt-out of promotional
+          emails at any time by clicking the unsubscribe link in the email or
+          contacting us directly.
+          <br />
+          <strong>Device Permissions:</strong> You can manage app permissions
+          for your camera and microphone through your device settings.
+        </p>
+
+        <p>
+          <strong>Data Protection</strong>
+          <br />
+          We take reasonable technical and organizational measures to protect
+          your personal data from unauthorized access, misuse, or disclosure.
+        </p>
+
+        <p>
+          <strong>Third-Party Services</strong>
+          <br />
+          Hustlex integrates with third-party services for analytics and
+          marketing purposes. These services have their own privacy policies:
+          <br />- <strong>PostHog Analytics:</strong>{" "}
+          <a href="https://posthog.com/privacy" target="_blank">
+            PostHog Privacy Policy
+          </a>
+          <br />- <strong>Remarketing Services:</strong> Google Ads, Facebook
+          Ads, and Twitter Ads
+        </p>
+
+        <p>
+          <strong>Data Retention</strong>
+          <br />
+          We retain personal data only as long as necessary for the purposes
+          outlined in this policy or as required by law.
+        </p>
+
+        <p>
+          <strong>Children's Privacy</strong>
+          <br />
+          Hustlex is not intended for children under the age of 18. We do not
+          knowingly collect personal data from children.
+        </p>
+
+        <p>
+          <strong>Changes to This Privacy Policy</strong>
+          <br />
+          We may update this policy from time to time. Changes will be reflected
+          on this page, and we encourage you to review this policy periodically.
+        </p>
+
+        <p>
+          <strong>Contact Us</strong>
+          <br />
+          For questions or concerns about this Privacy Policy, you can contact
+          us at:
+          <br />- <strong>Email:</strong> social.hustlex@gmail.com
+          <br />- <strong>Phone:</strong> +91 9141196450
+        </p>
+
+        <p>Thank you for using Hustlex. Stay fit, stay rewarded!</p>
       </div>
       <Footer />
     </div>

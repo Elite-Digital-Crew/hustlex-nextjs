@@ -16,108 +16,131 @@ const About = () => {
         </div>
         <h1>Terms and Conditions</h1>
         <p>
-          By downloading or using the app, these terms will automatically apply
-          to you – you should make sure therefore that you read them carefully
-          before using the app. You’re not allowed to copy or modify the app,
-          any part of the app, or our trademarks in any way. You’re not allowed
-          to attempt to extract the source code of the app, and you also
-          shouldn’t try to translate the app into other languages or make
-          derivative versions. The app itself, and all the trademarks,
-          copyright, database rights, and other intellectual property rights
-          related to it, still belong to HustleX Fitness.
+          <strong>Terms and Conditions</strong>
           <br />
+          Effective Date: 28-06-2024
+        </p>
+
+        <p>
+          Welcome to Hustlex! By using our app and services, you agree to comply
+          with these Terms and Conditions. Please read them carefully.
+        </p>
+
+        <p>
+          <strong>1. Account Creation</strong>
+        </p>
+        <p>
+          - To access certain features, users must create an account by
+          providing accurate and up-to-date information.
           <br />
-          HustleX Fitness is committed to ensuring that the app is as useful and
-          efficient as possible. For that reason, we reserve the right to make
-          changes to the app or to charge for its services, at any time and for
-          any reason. We will never charge you for the app or its services
-          without making it very clear to you exactly what you’re paying for.
+          - You are responsible for maintaining the confidentiality of your
+          account credentials.
+          <br />- Hustlex is not responsible for unauthorized account access due
+          to your failure to secure your login details.
+        </p>
+
+        <p>
+          <strong>2. In-App Purchases and Subscriptions</strong>
+        </p>
+        <p>
+          - Hustlex offers <strong>in-app purchases</strong>, including curated
+          goods (products/items) and <strong>subscription plans</strong>.<br />
+          - Most of the app is free to use, but premium features may require
+          payment.
           <br />
+          - Payments are processed securely through trusted platforms, including
+          Apple In-App Purchase, Google Play In-App Purchase, and Razorpay.
+          <br />- Subscription plans automatically renew unless canceled before
+          the renewal date.
+        </p>
+
+        <p>
+          <strong>3. Rewards and Promotions</strong>
+        </p>
+        <p>
+          - Hustlex may offer <strong>promotions</strong>,{" "}
+          <strong>contests</strong>, <strong>sweepstakes</strong>,{" "}
+          <strong>raffles</strong>, and other reward-based activities.
           <br />
-          The HustleX app stores and processes personal data that you have
-          provided to us, to provide our Service. It’s your responsibility to
-          keep your phone and access to the app secure. We therefore recommend
-          that you do not jailbreak or root your phone, which is the process of
-          removing software restrictions and limitations imposed by the official
-          operating system of your device. It could make your phone vulnerable
-          to malware/viruses/malicious programs, compromise your phone’s
-          security features and it could mean that the HustleX app won’t work
-          properly or at all.
+          - Participation is voluntary and subject to specific rules provided
+          for each activity.
+          <br />- Hustlex reserves the right to modify, suspend, or cancel
+          promotions at its discretion.
+        </p>
+
+        <p>
+          <strong>4. Feedback and Suggestions</strong>
+        </p>
+        <p>
+          - By submitting feedback or suggestions, you grant Hustlex the right
+          to use, implement, and modify them without compensation or credit.
+        </p>
+
+        <p>
+          <strong>5. Intellectual Property</strong>
+        </p>
+        <p>
+          - All content, features, and trademarks associated with Hustlex are
+          the exclusive property of Hustlex.
+          <br />- You may not copy, modify, distribute, or use any of our
+          intellectual property without prior written permission.
+        </p>
+
+        <p>
+          <strong>6. User Responsibilities</strong>
+        </p>
+        <p>
+          - Users must not misuse the app, engage in fraudulent activities, or
+          violate applicable laws.
+          <br />- Any inappropriate or harmful behavior may result in account
+          suspension or termination.
+        </p>
+
+        <p>
+          <strong>7. Third-Party Services</strong>
+        </p>
+        <p>
+          - Hustlex integrates third-party services such as payment processors
+          and analytics tools.
+          <br />- These services have their own terms and conditions, and you
+          agree to comply with them when using our app.
+        </p>
+
+        <p>
+          <strong>8. Limitation of Liability</strong>
+        </p>
+        <p>
+          - Hustlex is provided "as is," and we do not guarantee uninterrupted
+          or error-free use.
+          <br />- We are not liable for any direct, indirect, incidental, or
+          consequential damages arising from the use or inability to use our app
+          or services.
+        </p>
+
+        <p>
+          <strong>9. Governing Law</strong>
+        </p>
+        <p>
+          - These terms are governed by the laws of Karnataka, India. Any
+          disputes shall be resolved in the courts of Karnataka.
+        </p>
+
+        <p>
+          <strong>10. Contact Us</strong>
+        </p>
+        <p>
+          For questions or concerns regarding these Terms and Conditions, you
+          can contact us at:
           <br />
+          <strong>Email:</strong> social.hustlex@gmail.com
           <br />
-          The app does use third-party services that declare their Terms and
-          Conditions.
-          <br />
-          <br />
-          You should be aware that there are certain things that HustleX Fitness
-          will not take responsibility for. Certain functions of the app will
-          require the app to have an active internet connection. The connection
-          can be Wi-Fi or provided by your mobile network provider, but HustleX
-          Fitness cannot take responsibility for the app not working at full
-          functionality if you don’t have access to Wi-Fi, and you don’t have
-          any of your data allowance left.
-          <br />
-          <br />
-          If you’re using the app outside of an area with Wi-Fi, you should
-          remember that the terms of the agreement with your mobile network
-          provider will still apply. As a result, you may be charged by your
-          mobile provider for the cost of data for the duration of the
-          connection while accessing the app, or other third-party charges. In
-          using the app, you’re accepting responsibility for any such charges,
-          including roaming data charges if you use the app outside of your home
-          territory (i.e. region or country) without turning off data roaming.
-          If you are not the bill payer for the device on which you’re using the
-          app, please be aware that we assume that you have received permission
-          from the bill payer for using the app.
-          <br />
-          <br />
-          Along the same lines, HustleX Fitness cannot always take
-          responsibility for the way you use the app i.e. You need to make sure
-          that your device stays charged – if it runs out of battery and you
-          can’t turn it on to avail the Service, HustleX Fitness cannot accept
-          responsibility.
-          <br />
-          <br />
-          With respect to HustleX Fitness’s responsibility for your use of the
-          app, when you’re using the app, it’s important to bear in mind that
-          although we endeavor to ensure that it is updated and correct at all
-          times, we do rely on third parties to provide information to us so
-          that we can make it available to you. HustleX Fitness accepts no
-          liability for any loss, direct or indirect, you experience as a result
-          of relying wholly on this functionality of the app.
-          <br />
-          <br />
-          At some point, we may wish to update the app. The app is currently
-          available on Android – the requirements for the system(and for any
-          additional systems we decide to extend the availability of the app to)
-          may change, and you’ll need to download the updates if you want to
-          keep using the app. HustleX Fitness does not promise that it will
-          always update the app so that it is relevant to you and/or works with
-          the Android version that you have installed on your device. However,
-          you promise to always accept updates to the application when offered
-          to you, We may also wish to stop providing the app, and may terminate
-          use of it at any time without giving notice of termination to you.
-          Unless we tell you otherwise, upon any termination, (a) the rights and
-          licenses granted to you in these terms will end; (b) you must stop
-          using the app, and (if needed) delete it from your device.
-          <br />
-          <br />
-          Changes to This Terms and Conditions
-          <br />
-          <br />
-          We may update our Terms and Conditions from time to time. Thus, you
-          are advised to review this page periodically for any changes. We will
-          notify you of any changes by posting the new Terms and Conditions on
-          this page.
-          <br />
-          <br />
-          These terms and conditions are effective as of 2022-04-22
-          <br />
-          <br />
-          Contact Us
-          <br />
-          If you have any questions or suggestions about our Terms and
-          Conditions, do not hesitate to contact us at team@hustlex.club.
+          <strong>Phone:</strong> +91 9141196450
+        </p>
+
+        <p>
+          By using Hustlex, you acknowledge that you have read, understood, and
+          agreed to these Terms and Conditions. Thank you for being part of our
+          community—stay fit, stay rewarded!
         </p>
       </div>
       <Footer />
