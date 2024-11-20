@@ -162,7 +162,7 @@ const Policy = () => {
 				</p>
 
 				<p>
-					<strong>Children's Privacy</strong>
+					<strong>Children&apos;s Privacy</strong>
 					<br />
 					Hustlex is not intended for children under the age of 18. We do not
 					knowingly collect personal data from children.
