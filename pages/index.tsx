@@ -65,7 +65,7 @@ const Home: NextPage = () => {
 				title={"Reimagine."}
 				description="HustleX combines gamification and fitness to create the best fitness experience ever."
 			/>
-			<PreRegister ref={preRegisterRef} />
+			{/* <PreRegister ref={preRegisterRef} /> */}
 			<Footer />
 		</div>
 	);
