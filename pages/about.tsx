@@ -58,6 +58,14 @@ const About = () => {
           adventure waiting to be conquered. Get ready to unleash your potential
           and Hustle like never before!
         </p>
+        <p>
+          <strong>Email</strong>
+        </p>
+        <p>social.hustlex@gmail.com</p>
+        <p>
+          <strong>Phone</strong>
+        </p>
+        <p>+91 9141196450</p>
       </div>
       <Footer />
     </div>

@@ -10,12 +10,13 @@ const About = () => {
     <div>
       <div className={styles.aboutContainer}>
         <div className={styles.aboutnav}>
-          <Image layout="fill" src="./logo-p.png" alt="logo" />
+          <Image width={72} height={72} src="/logo-p.png" alt="logo" />
           <Link href="/">
             <a className={styles.button}>back to website</a>
           </Link>
         </div>
-        <h1>Shipping Policy</h1>
+
+        <h1 className={styles.mainText}>Shipping Policy</h1>
         <p>
           HustleX only takes orders only Within India. Any order from other
           Nations will not we fullfilled and the debited money and Hustle Coins
