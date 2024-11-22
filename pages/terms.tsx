@@ -61,11 +61,18 @@ const About = () => {
         </p>
         <p>
           - Hustlex may offer <strong>promotions</strong>,{" "}
-          <strong>contests</strong>, <strong>sweepstakes</strong>,{" "}
-          <strong>raffles</strong>, and other reward-based activities.
+          <strong>contests</strong>, and other reward-based activities.
+          <br />
+          - HustleX does not permit any User to purchase any Coins using real
+          world money, to enter the Reward Promotions. None of the reward
+          promotions include betting or wagering of real-world money.
           <br />
           - Participation is voluntary and subject to specific rules provided
           for each activity.
+          <br />
+          Users can participate in any Reward Promotion only by using the Coins
+          awarded to them by HustleX.
+          <br />
           <br />- Hustlex reserves the right to modify, suspend, or cancel
           promotions at its discretion.
         </p>
