@@ -14,7 +14,9 @@ const Cancellation = () => {
             <a className={styles.button}>back to website</a>
           </Link>
         </div>
-        <h1>Cancelation and Refund Policy</h1>
+        <i>
+          <h1 className={styles.mainText}>Cancelation and Refund Policy</h1>
+        </i>
         <p>
           <strong>Cancellation and Refund Policy</strong>
         </p>

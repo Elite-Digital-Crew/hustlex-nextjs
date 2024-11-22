@@ -293,13 +293,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fafafa;
+  border-color: #333333;
+  border-width: 1px;
   border-radius: 100px;
+
+  background-color: #f9f9f9;
 
   font-weight: 600;
   font-size: 16px;
   color: #050505;
 }
+
 .aboutContainer h1 {
   font-family: Integral;
   font-size: 54px;
