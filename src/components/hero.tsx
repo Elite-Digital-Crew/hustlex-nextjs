@@ -18,7 +18,7 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
       <div className={styles.hero}>
         <nav>
           <Link href="/">
-            <Image src="/logo.png" alt="Logo" width={180} height={54} />
+            <Image src="/logo.png" alt="Logo" width={132} height={40} />
           </Link>
           <Link href="#join" passHref>
             <a className={styles.button}>join now</a>
@@ -29,10 +29,8 @@ const Hero: FC<Props> = ({ onScroll, title, description }) => {
             <span>Re</span>imagine <br /> Fitness
           </i>
         </h1>
-        <h2>Crafted for the dedicated..</h2>
-        <Link href="#join" passHref>
-          <a className={styles.button2}>join now</a>
-        </Link>
+        <h2>Crafted for the dedicated</h2>
+
         <div></div>
       </div>
       <div className={styles.info}>
