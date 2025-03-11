@@ -47,7 +47,16 @@ export const Footer = () => {
             name="/linkdinLogo.png"
           />
         </div>
-        <h1>© 2022 | HustleX Fitness.</h1>
+        <h1>© 2025 | HustleX.</h1>
+        <h1>
+          HustleX is a registered trademark of XElite Studios
+          <br /> Pvt.Ltd.All rights reserved
+        </h1>
+        <h1>
+          #12,Nelamangala <br />
+          Bangalore - 562123 <br />
+          Karnataka,INDIA
+        </h1>
       </div>
       <div className={styles.div2}>
         <Link name="About" href="/about" />
@@ -65,9 +74,6 @@ export const Footer = () => {
         <Link name="Terms" href="/terms" />
         <Link name="Shipping Policy" href="/shipping" />
         <Link name="Cancellation & Refund" href="/cancellation&refund" />
-      </div>
-      <div className={styles.div4}>
-        <p>#22/58, Rajajinagar, Bangalore - 560010</p>
       </div>
     </div>
   );
